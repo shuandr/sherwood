@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ШЕРВУД | Готельно-відпочинковий комплекс</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  </head>
+  <body>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="assets/js_plugins/myAngular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
+    <!-- <script src="assets/js_plugins/angular-animate.js"></script>-->
+    <div class="dark-bgrd">
+    	<div class="pattern-bgrd"></div>
+    </div>
+    <div class="row column">
+    	<div class="rest-menu row">
+    		<div class="large-11 large-centered column ">
+    			<div ng-app="sherwoodMenu" ng-controller="menuCtrl" >
+    				<h2 class="uppercase gold text-center">меню</h2>
+    				<div class="" ng-repeat="section in sherMenu">
+    					
+    					<h4 class="menu-section text-center uppercase">{[{section.section}]}</h4>
+    					<table>
+    						<tr ng-repeat="dish in section.dishes">
+    							<td class="dish-name">{[{dish.name}]}<br><span class="dish-descr">{[{dish.descr}]}</span></td>
+    							<td class="dish-mass text-right">{[{dish.mass}]}</td>
+    							<td class="dish-price text-right">{[{dish.price}]}</td>
+    						</tr>
+    					</table>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js_plugins/owl.carousel.min.js"></script>
+  </body>
+</html>
