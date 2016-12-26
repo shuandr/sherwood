@@ -11,14 +11,19 @@ app.config(function($interpolateProvider) {
 
 
 app.controller('menuCtrl', function($scope, $http) {
-    
+
 
     $http.get("assets/json/menu.json").then(function(response) {
         $scope.sherMenu = response.data;
-        
+
     });
 
-    
+    $http.get("assets/json/alco_menu.json").then(function(response) {
+        $scope.sherAlcoMenu = response.data;
+
+    });
+
+
     // debugger;
 
 

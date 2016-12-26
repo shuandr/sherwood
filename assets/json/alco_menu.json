@@ -1,0 +1,315 @@
+[
+
+    {
+        "section": "Напої за нашими рецептами ",
+        "dishes": [{
+            "name": "Глiнтвейн (гаряче вино з корицею, апельсином, лимоном та медом)",
+            "volume": 200,
+            "bottle_price": null,
+            "price": 40
+        }, {
+            "name": "Калганiвка (на коренi калгану)",
+            "volume": 50,
+            "bottle_price": null,
+            "price": 16
+        }, {
+            "name": "Медовуха 30°",
+            "volume": 50,
+            "bottle_price": null,
+            "price": 13
+        }]
+    }, {
+        "section": " Коньяк",
+        "dishes": [{
+            "name": "Шустов ****",
+            "volume": 0.5,
+            "bottle_price": 200,
+            "price": 20
+        }, {
+            "name": "Шустов ***",
+            "volume": 0.5,
+            "bottle_price": 170,
+            "price": 17
+        }, {
+            "name": "Десна ****",
+            "volume": 0.5,
+            "bottle_price": 160,
+            "price": 16
+        }, {
+            "name": "Арарат ***",
+            "volume": 0.5,
+            "bottle_price": 340,
+            "price": 34
+        }, {
+            "name": "Арарат *****",
+            "volume": 0.5,
+            "bottle_price": 600,
+            "price": 60
+        }, {
+            "name": "Закарпатський",
+            "volume": 0.5,
+            "bottle_price": 320,
+            "price": 32
+        }, {
+            "name": "Карпати",
+            "volume": 0.5,
+            "bottle_price": 720,
+            "price": 72
+        }, {
+            "name": "Хенесi",
+            "volume": 0.5,
+            "bottle_price": 800,
+            "price": 80
+        }]
+    }, {
+        "section": "Вiскi",
+        "dishes": [{
+            "name": "Джоннi Вокер чорний",
+            "volume": 0.5,
+            "bottle_price": 1100,
+            "price": 110
+        }, {
+            "name": "Джоннi Вокер червоний",
+            "volume": 0.5,
+            "bottle_price": 720,
+            "price": 72
+        }, {
+            "name": "Джек Деніелс   Jack Daniel’s",
+            "volume": 0.5,
+            "bottle_price": 830,
+            "price": 83
+        }, {
+            "name": "Джеймсон",
+            "volume": 0.5,
+            "bottle_price": 600,
+            "price": 60
+        }]
+    }, {
+        "section": "Лікери і настійки",
+        "dishes": [{
+            "name": "Бейліз",
+            "volume": 0.5,
+            "bottle_price": 590,
+            "price": 59
+        }, {
+            "name": "Шеріданс",
+            "volume": 0.5,
+            "bottle_price": 730,
+            "price": 73
+        }, {
+            "name": "Бальзам «Рига Блек»",
+            "volume": 0.5,
+            "bottle_price": 420,
+            "price": 42
+        }, {
+            "name": "Бехеровка",
+            "volume": 0.5,
+            "bottle_price": 380,
+            "price": 38
+        }]
+    }, {
+        "section": "Текіла",
+        "dishes": [{
+            "name": "Jose Cuervo",
+            "volume": 0.5,
+            "bottle_price": 370,
+            "price": 37
+        }]
+    }, {
+        "section": "Ром",
+        "dishes": [{
+            "name": "Бакарді Чорний",
+            "volume": 0.5,
+            "bottle_price": 500,
+            "price": 50
+        }, {
+            "name": "Бакарді Білий",
+            "volume": 0.5,
+            "bottle_price": 500,
+            "price": 50
+        }, {
+            "name": "Мартiнi",
+            "volume": "1 л",
+            "bottle_price": 440,
+            "price": 22
+        }]
+    }, {
+        "section": "Вина Молдови",
+        "dishes": [{
+            "name": "Каберне-Совіньйон марочне сухе ",
+            "volume": 0.75,
+            "bottle_price": 225,
+            "price": 15
+        }, {
+            "name": "Мерло червоне сухе",
+            "volume": 0.7,
+            "bottle_price": 225,
+            "price": 15
+        }, {
+            "name": "Шардоне біле сухе",
+            "volume": 0.75,
+            "bottle_price": 225,
+            "price": 15
+        }, {
+            "name": "Мускат Золотий біле напівсолодке",
+            "volume": 0.75,
+            "bottle_price": 255,
+            "price": 17
+        }, {
+            "name": "Мускат Срібний біле напівсухе",
+            "volume": 0.75,
+            "bottle_price": 225,
+            "price": 15
+        }]
+    }, {
+        "section": "Вина Грузiї",
+        "dishes": [{
+            "name": "Цинандалі біле сухе",
+            "volume": 0.75,
+            "bottle_price": 300,
+            "price": 20
+        }, {
+            "name": "Алазанська Долина біле напівсолодке",
+            "volume": 0.75,
+            "bottle_price": 270,
+            "price": 18
+        }, {
+            "name": "Сапераві червоне сухе",
+            "volume": 0.75,
+            "bottle_price": 330,
+            "price": 22
+        }, {
+            "name": "Алазанська Долина червоне напівсолодке",
+            "volume": 0.75,
+            "bottle_price": 300,
+            "price": 20
+        }, {
+            "name": "Кіндзмараулі червоне напівсолодке",
+            "volume": 0.75,
+            "bottle_price": 525,
+            "price": 35
+        }]
+    }, {
+        "section": "Горiлка",
+        "dishes": [{
+            "name": "Премiум Немирiв",
+            "volume": 0.5,
+            "bottle_price": 300,
+            "price": 30
+        }, {
+            "name": "Львiвський стандарт Срiбна",
+            "volume": 0.5,
+            "bottle_price": 160,
+            "price": 16
+        }, {
+            "name": "Немирiв Лайт",
+            "volume": 0.5,
+            "bottle_price": 160,
+            "price": 16
+        }, {
+            "name": "Немирiв",
+            "volume": 0.5,
+            "bottle_price": 160,
+            "price": 16
+        }, {
+            "name": "Хортиця Абсолютна",
+            "volume": 0.5,
+            "bottle_price": 160,
+            "price": 16
+        }, {
+            "name": "Хортиця Класична",
+            "volume": 0.5,
+            "bottle_price": 150,
+            "price": 15
+        }, {
+            "name": "Мороша",
+            "volume": 0.7,
+            "bottle_price": 130,
+            "price": 13
+        }]
+    }, {
+        "section": "Шампанське  ",
+        "dishes": [{
+            "name": "Артемiвське червоне | біле",
+            "volume": null,
+            "bottle_price": 200,
+            "price": null
+        }, {
+            "name": "Брют",
+            "volume": null,
+            "bottle_price": 200,
+            "price": null
+        }, {
+            "name": "«Советское»",
+            "volume": null,
+            "bottle_price": 200,
+            "price": null
+        }]
+    }, {
+        "section": "Пиво",
+        "dishes": [{
+            "name": "Оболонь «Магнат» розливне",
+            "volume": 0.33,
+            "bottle_price": 29,
+            "price": null
+        }, {
+            "name": "",
+            "volume": 0.5,
+            "bottle_price": 32,
+            "price": null
+        }, {
+            "name": "Оболонь безалкогольне",
+            "volume": 0.5,
+            "bottle_price": 40,
+            "price": null
+        }, {
+            "name": "«Оболонь» світле",
+            "volume": 0.5,
+            "bottle_price": 40,
+            "price": null
+        }, {
+            "name": "«Оболонь Оксамитове»",
+            "volume": 0.5,
+            "bottle_price": 50,
+            "price": null
+        }, {
+            "name": "«Карлінг»",
+            "volume": 0.5,
+            "bottle_price": 50,
+            "price": null
+        }, {
+            "name": "«Злата Прага»",
+            "volume": 0.5,
+            "bottle_price": 50,
+            "price": null
+        }]
+    }, {
+        "section": "Сигарети",
+        "dishes": [{
+            "name": "Раrliament в асортименті",
+            "volume": null,
+            "bottle_price": null,
+            "price": null
+        }, {
+            "name": "Marlboro",
+            "volume": null,
+            "bottle_price": null,
+            "price": null
+        }, {
+            "name": "Marlboro срібне",
+            "volume": null,
+            "bottle_price": null,
+            "price": null
+        }, {
+            "name": "Сhesterfield в асортименті",
+            "volume": null,
+            "bottle_price": null,
+            "price": null
+        }, {
+            "name": "ціни уточнюйте у бармена",
+            "volume": null,
+            "bottle_price": null,
+            "price": null
+        }]
+    }
+]

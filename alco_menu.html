@@ -17,10 +17,9 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="assets/js_plugins/myAngular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
-    <div class="dark-bgrd">
-    	<div class="pattern-bgrd">
-    		
-    	</div>
+    <!-- <script src="assets/js_plugins/angular-animate.js"></script>-->
+    <div class="wine-bgrd">
+    	<div class="pattern-bgrd"></div>
     </div>
     <div class="row">
     	<div class="small-8 medium-5 large-3 small-centered column ">
@@ -35,20 +34,31 @@
     	<div class="rest-menu row">
     		<div class="large-11 large-centered column ">
     			<div ng-app="sherwoodMenu" ng-controller="menuCtrl" >
-    				<h2 class="uppercase gold text-center">меню</h2>
-    				<div class="" ng-repeat="section in sherMenu">
+    				<h2 class="uppercase gold text-center">бар і винна мапа</h2><br>
+    				<table>
+    					<tr>
+    						<td class="dish-name text-center">назва</td>
+    						<td class="dish-mass text-right">об’єм</td>
+    						<td class="dish-price text-right">пляшка</td>
+    						<td class="dish-price text-right">порція</td>
+    					</tr>
+    				</table>
+    				<div class="" ng-repeat="section in sherAlcoMenu">
     					
     					<h4 class="menu-section text-center uppercase">{[{section.section}]}</h4>
     					<table>
+    						
     						<tr ng-repeat="dish in section.dishes">
-    							<td class="dish-name">{[{dish.name}]}<br><span class="dish-descr">{[{dish.descr}]}</span></td>
-    							<td class="dish-mass text-right">{[{dish.mass}]}</td>
-    							<td class="dish-price text-right">{[{dish.price}]}</td>
+    							<td class="dish-name">{[{dish.name}]}</td>
+    							<td class="dish-mass text-right">{[{dish.volume}]}</td>
+    							<td class="dish-price text-right">{[{dish.bottle_price}]} </td>
+    							<td class="dish-price text-right">{[{dish.price}]} </td>
     						</tr>
     					</table>
     				</div>
     			</div>
-    			<div class="text-center"><a href="alco_menu.html" class="success hollow button uppercase">бар і винна мапа</a></div>
+    			<div class="text-center"><a href="menu.html" class="success hollow button uppercase">основне меню</a></div><br>
+    			
     		</div>
     	</div>
     </div>
