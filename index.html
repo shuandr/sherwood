@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-
+    <link rel="stylesheet" href="assets/css/jquery.datepick.css">
   </head>
   <body>
-  <div id="preloader">
-    <div id="pre-logo"></div>
-  </div>
+    <div id="preloader">
+      <div id="pre-logo"></div>
+    </div>
     <div class="lang-select">
     	<a href="index.html"><img src="assets/img/UA-arm.png" alt="UA"></a>
     	<a href="index_en.html"><img src="assets/img/EN-arm.png" alt="EN"></a>
@@ -32,10 +32,87 @@
     	<a href="https://www.instagram.com/sherwoodhr" target="_blank">
     	<i class="fa fa-instagram fa-2x"></i></a>
     	<!-- <a href="https://vk.com/sherwood.lviv" target="_blank">
-        <i class="fa fa-vk fa-2x"></i></a> -->
+    	<i class="fa fa-vk fa-2x"></i></a> -->
     </div>
     <div class="booking show-for-medium">
-    	<a class="success button uppercase" href="http://www.booking.com" target="_blank">забронювати</a>
+    	<button class="success button uppercase" onclick="showBooking()" >забронювати</button>
+    </div>
+    <div id="main-booking" data-closable>
+    	<div class="flex-vert-space" style="height: 100%">
+    		<div class="orn-3"></div>
+    		<button class="close-button"  type="button" data-close>
+    		<span>&times;</span>
+    		</button>
+    		<div><h3 class="uppercase gold text-center">запит бронювання</h3><br>
+    <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxCReput38Lmh2tpLKCaM2c-YZUbjwkHDJypof6hO-lsuLRS14/exec">
+    	<div class="row">
+    		<div class="large-4 medium-6 column">
+    			<div class="controls">
+    				<input type="text" id="name" name="name" placeholder="ваше ім’я *" required >
+    			</div>
+    			<div class="controls">
+    				<input type="text" id="email" name="email" placeholder="e-mail *" required>
+    				<span id="email-invalid" style="display:none;">
+    				неправильний емейл</span>
+    			</div>
+    			<div class="controls">
+    				<input type="tel" id="phone" name="phone" placeholder="телефон">
+    			</div>
+    			*обов’язкові поля <br>
+    		</div>
+    		<div class="large-4 medium-6 column">
+    			<div class="row">
+    				<div class="small-6 column">
+    					<input type="date" id="arrive" name="arrive" placeholder="дата приїзду *" required>
+    				</div>
+    				<div class="small-6 column">
+    					<input type="date" id="depart" name="depart" placeholder="дата виїзду">
+    				</div>
+    			</div>
+    			<select id="room" name="room">
+    				<option value="lux">номер «Люкс»</option>
+    				<option value="semilux" >номер «Напівлюкс»</option>
+    				<option value="3-bed standart">Тримісний номер</option>
+    				<option value="2-bed standart">Двомісний номер</option>
+    				<option value="1-bed standart">Одномісний номер</option>
+    			</select>
+    			<div class="row">
+    				<div class="small-6 column text-right">
+    					дорослі:<select  id="adults" name="adults">
+    						<option value="1">1</option>
+    						<option value="2" >2</option>
+    						<option value="3">3</option>
+    						<option value="4">4</option>
+    					</select>
+    				</div>
+    				<div class="small-6 column text-right">
+    					діти:<select id="children" name="children">
+    						<option value="0"> </option>
+    						<option value="1">1</option>
+    						<option value="2" >2</option>
+    						<option value="3">3</option>
+    						<option value="4">4</option>
+    					</select>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="large-4 column">
+    			<textarea id="message" name="message" rows="5" placeholder="Особливі побажання:"></textarea>
+    		</div>
+    	</div><br>
+    	<div class="text-center">
+    		<button class="success button uppercase"><i class="fa fa-paper-plane "></i>&nbsp; відіслати</button>
+    	
+    	</div>
+    	
+    </form>
+    <br><br>
+    <div style="display:none;" id="thankyou_message">
+    	<h5 class="uppercase gold text-center">Дякуємо за запит! <br> Незабаром ми вам відповімо</h5>
+    </div>
+    </div>
+    		<div class="orn-3"></div>
+    	</div>
     </div>
     <div class="geo-pin">
     	<a href="#google-map">
@@ -50,7 +127,7 @@
     		</div>
     		<h3 class="uppercase light-gold">Готельно-відпочинковий комплекс</h3><br>
     		<div class="hide-for-medium">
-    			<a class="success button uppercase" href="http://www.booking.com" target="_blank">забронювати</a>
+    			<button class="success button uppercase" onclick="showBooking()" >забронювати</button>
     		</div>
     	</div>
     	<div class="arrow-down text-center">
@@ -157,7 +234,7 @@
     		
     	</section>
     	<section id="oferta" class="white-section">
-    		<div class="orn-g"></div>
+    		<div class="orn-2"></div>
     		<div class="expanded row column">
     			<div class="text-col">
     				<h2 class="uppercase gold text-center">гарячі пропозиції</h2>
@@ -194,7 +271,7 @@
     	</section>
     	
     	<section id="activities" class="">
-    		<div class="expanded row small-up-1 medium-up-2 large-up-3 text-center small-collapse" >
+    		<div class="expanded row small-up-1 medium-up-2 large-up-3 xxlarge-up-4 text-center small-collapse" >
     			<!-- 		data-equalizer data-equalize-on="medium" data-equalize-by-row="true"
     			-->
     			<div class="column activity">
@@ -249,7 +326,7 @@
     					<h3 class="uppercase light-gold text-center">футбол</h3>
     					<div class="act-text"><p>До ваших послуг доглянуте та обгороджене футбольне поле. Для клієнтів готелю — безкоштовно. <br> Для решти — 40 грн/год.</p></div>
     				</div>
-    				<div class="column activity show-for-large">
+    				<div class="column activity show-for-large hide-for-xxlarge">
     					<img class="lazy" data-src="assets/img/altanky_2.jpg" alt="інше">
     					<div class="act-overlay"></div>
     					<h3 class="uppercase light-gold text-center">... та багато іншого</h3>
@@ -259,7 +336,7 @@
     		</section>
     		
     		<div class="white-section">
-    			<div class="orn-g"></div>
+    			<div class="orn-2"></div>
     		</div>
     		<div class="main-slogan-bgrd parallax lazy">
     			<div class="dark-overlay">
@@ -280,8 +357,8 @@
     							<br>с. Довгомостиська, вул. Зелена 38б
     							<br>рецепція: <a href="tel://+380323438097">+38 03234-38-097</a>
     							<br>тел.моб: <a href="tel://+380993899385">+38 099 389-93-85</a>
-    							<br>бронювання груп: <br><a href="tel://+380676736552">+38 067 673-65-52</a>
-    						</p>
+    <!-- 							<br>бронювання груп: <br><a href="tel://+380676736552">+38 067 673-65-52</a>
+     -->						</p>
     						<p>sherwood.lviv@gmail.com</p>
     						<div class="orn-1"></div><br>
     						<div class="social-icons float-right">
@@ -290,7 +367,7 @@
     							<a href="https://www.instagram.com/sherwoodhr" target="_blank">
     							<i class="fa fa-instagram fa-2x"></i></a>
     							<!-- <a href="https://vk.com/sherwood.lviv" target="_blank">
-                                <i class="fa fa-vk fa-2x"></i></a> -->
+    							<i class="fa fa-vk fa-2x"></i></a> -->
     						</div>
     					</div>
     				</div>
@@ -322,17 +399,25 @@
     		</script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js_plugins/owl.carousel.min.js"></script>
-                <script src="assets/js_plugins/jquery.lazy.min.js"></script>
-
+    <script src="assets/js_plugins/jquery.lazy.min.js"></script>
+    <script src="assets/js_plugins/datepick/jquery.plugin.min.js"></script>
+    <script src="assets/js_plugins/datepick/jquery.datepick.min.js"></script>
+    <script src="assets/js_plugins/datepick/jquery.datepick-uk.js"></script>
+    <script data-cfasync="false" src="assets/js_plugins/form-submission-handler.js"></script>
+    <script>    
+    $('input[type="date"]').datepick(
+        {
+            showAnim: 'show'
+        });
+      
+    </script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-82329311-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-82329311-3', 'auto');
+    ga('send', 'pageview');
+    </script>
   </body>
 </html>
