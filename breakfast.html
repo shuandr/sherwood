@@ -25,12 +25,13 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-sanitize.js"></script>
     <script src="assets/js_plugins/myAngular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular-route.js"></script>
-    <!-- <script src="assets/js_plugins/angular-animate.js"></script>-->
-    <div class="wine-bgrd">
-    	<div class="pattern-bgrd"></div>
+    <div class="green-bgrd">
+    	<div class="pattern-bgrd">
+    		
+    	</div>
     </div>
     <div class="row">
-    	<div class="small-8 medium-5 large-3 small-centered column ">
+    	<div class="small-9 medium-6 large-4 small-centered column ">
     		<div class="small-logo">
     			<a href="index.html"><img src="assets/img/logo-h.png" alt="logo">
     			</a>
@@ -38,41 +39,56 @@
     	</div>
     	
     </div>
-    <div class="rest-menu">
+    <div class="rest-menu" ng-app="sherwoodMenu" ng-controller="menuCtrl">
     	<div class="orn-1"></div>
-    	<h2 class="uppercase gold text-center">бар і винна мапа</h2>
-    	<img src="assets/img/wine_fire.jpg" alt="">
-    	<div class="orn-1"></div>
-    	<div class="row">
-    		<div class="large-11 large-centered column ">
-    			<div ng-app="sherwoodMenu" ng-controller="menuCtrl" >
-    				<table>
-    					<tr>
-    						<td class="dish-name text-center">назва</td>
-    						<td class="dish-mass text-right">об’єм</td>
-    						<td class="dish-price text-right">пляшка</td>
-    						<td class="dish-price text-right">порція</td>
-    					</tr>
-    				</table>
-    				<div class="" ng-repeat="section in sherAlcoMenu">
-    					
-    					<h4 class="menu-section text-center uppercase">{[{section.section}]}</h4>
-    					<table>
+    	<h2 class="uppercase gold text-center">Сніданки</h2>
+    	<img src="assets/img/brkfst_hero.jpg" alt="">
+    	<div class="white-section">
+    		<div class="orn-2"></div>
+    		<p class="price text-center">Ціна усіх сніданків: 70 грн</p>
+    	</div>
+    	<div class="row large-collapse small-up-1 large-up-2" >
+    		
+    		<div ng-repeat="dish in brkfst" class="column flex-vert-space" >
+    			<div class="orn-1"></div>
+    			<div class="row ">
+    				<div class="small-6 column flex-vert-center">
+    					<div class="text-col ">
+    						<h3 class="uppercase gold text-center">№ {[{dish.name}]}</h3>
+    						<p ng-bind-html="dish.descr">...</p>
     						
-    						<tr ng-repeat="dish in section.dishes">
-    							<td class="dish-name">{[{dish.name}]}</td>
-    							<td class="dish-mass text-right">{[{dish.volume}]}</td>
-    							<td class="dish-price text-right">{[{dish.bottle_price}]} </td>
-    							<td class="dish-price text-right">{[{dish.price}]} </td>
-    						</tr>
-    					</table>
+    					</div>
+    				</div>
+    				<div class="small-6 column text-center">
+    					<img src="assets/img/brkfst_{[{dish.name}]}.png" alt="сніданок">
     				</div>
     			</div>
-    			<div class="text-center"><a href="menu.html" class="success hollow button uppercase">основне меню</a></div><br>
-    			
+    		</div>
+    		
+    	</div>
+    	<div class="show-for-large orn-1"></div>
+    	
+    	<div class="row">
+    		<div class="large-11 large-centered column ">
+    			<div ng-repeat="section in brkfstAdd">
+    				<h4 class="menu-section text-center uppercase">{[{section.section}]}</h4>
+    				<table>
+    					<tr ng-repeat="dish in section.dishes">
+    						<td class="dish-name">{[{dish.name}]}</td>
+    						<td class="dish-mass text-right">{[{dish.mass}]}</td>
+    						<td class="dish-price text-right">{[{dish.price}]}</td>
+    					</tr>
+    				</table>
+    			</div>
     		</div>
     	</div>
+    	<div class="orn-1"></div>
+    	<p class="text-center">Також на сніданок можна замовити страви з <a href="menu.html">загального меню</a>, за винятком страв з тандиру. <br>
+    	Сніданки в ресторані готелю з 8 до 10 год, опісля — в колибі</p>
+    	<h2 class="uppercase gold text-center">смачного!</h2>
+    	<div class="orn-1"></div>
     </div>
+    
     <footer class="row column">
     	<div class="table-booking">
     		<div class="text-center">
