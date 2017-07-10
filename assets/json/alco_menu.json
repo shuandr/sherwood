@@ -11,12 +11,12 @@
             "name": "Калганiвка (на коренi калгану)",
             "volume": 50,
             "bottle_price": null,
-            "price": 16
+            "price": 22
         }, {
             "name": "Медовуха 30°",
             "volume": 50,
             "bottle_price": null,
-            "price": 13
+            "price": 18
         }]
     }, {
         "section": " Коньяк",
@@ -219,13 +219,13 @@
         }, {
             "name": "Хортиця Класична",
             "volume": 0.5,
-            "bottle_price": 150,
-            "price": 15
+            "bottle_price": 160,
+            "price": 16
         }, {
             "name": "Мороша",
             "volume": 0.7,
-            "bottle_price": 130,
-            "price": 13
+            "bottle_price": 160,
+            "price": 16
         }]
     }, {
         "section": "Шампанське  ",
