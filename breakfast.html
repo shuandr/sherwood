@@ -43,34 +43,18 @@
     	<div class="orn-1"></div>
     	<h2 class="uppercase gold text-center">Сніданки</h2>
     	<img src="assets/img/brkfst_hero.jpg" alt="">
-    	<div class="white-section">
-    		<div class="orn-2"></div>
-    		<p class="price text-center">Ціна усіх сніданків: 70 грн</p>
-    	</div>
-    	<div class="row large-collapse small-up-1 large-up-2" >
-    		
-    		<div ng-repeat="dish in brkfst" class="column flex-vert-space" >
-    			<div class="orn-1"></div>
-    			<div class="row ">
-    				<div class="small-6 column flex-vert-center">
-    					<div class="text-col ">
-    						<h3 class="uppercase gold text-center">№ {[{dish.name}]}</h3>
-    						<p ng-bind-html="dish.descr">...</p>
-    						
-    					</div>
-    				</div>
-    				<div class="small-6 column text-center">
-    					<img src="assets/img/brkfst_{[{dish.name}]}.png" alt="сніданок">
-    				</div>
-    			</div>
-    		</div>
-    		
-    	</div>
-    	<div class="show-for-large orn-1"></div>
     	
-    	<div class="row">
-    		<div class="large-11 large-centered column ">
-    			<div ng-repeat="section in brkfstAdd">
+    	<div class="orn-1"></div>
+    	<div class="large-11 large-centered column ">
+    		
+    		
+    		<table>
+    			<tr ng-repeat="dish in brkfst">
+    				<td class="dish-name">{[{dish.name}]}<br><span class="dish-descr">{[{dish.descr}]}</span></td>
+    				<td class="dish-price text-right">{[{dish.price}]}</td>
+    			</tr>
+    		</table>
+    		<div ng-repeat="section in brkfstAdd">
     				<h4 class="menu-section text-center uppercase">{[{section.section}]}</h4>
     				<table>
     					<tr ng-repeat="dish in section.dishes">
@@ -80,22 +64,23 @@
     					</tr>
     				</table>
     			</div>
-    		</div>
-    	</div>
-    	<div class="orn-1"></div>
-    	<p class="text-center">Також на сніданок можна замовити страви з <a href="menu.html">загального меню</a>, за винятком страв з тандиру. <br>
-    	Сніданки в ресторані готелю з 8 до 10 год, опісля — в колибі</p>
-    	<h2 class="uppercase gold text-center">смачного!</h2>
-    	<div class="orn-1"></div>
-    </div>
-    
-    <footer class="row column">
-    	<div class="table-booking">
-    		<div class="text-center">
-    			<a href="tel://+380323438097" class="success button uppercase">замовити столик</a>
-    		</div>
+    		
+    		
     	</div>
     	
+    	
+    	<div class="orn-1"></div>
+    	<p class="text-center">Також на сніданок можна замовити страви з <a href="menu.html">загального меню</a>, за винятком страв з тандиру. <br>
+    Сніданки в ресторані готелю з 8 до 10 год, опісля — в колибі</p>
+    <h2 class="uppercase gold text-center">смачного!</h2>
+    <div class="orn-1"></div>
+    </div>
+    <footer class="row column">
+    <div class="table-booking">
+    	<div class="text-center">
+    		<a href="tel://+380323438097" class="success button uppercase">замовити столик</a>
+    	</div>
+    </div>
     </footer>
     <script src="assets/js/app.js"></script>
     <script src="assets/js_plugins/owl.carousel.min.js"></script>
