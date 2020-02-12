@@ -1,405 +1,405 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ШЕРВУД | Готельно-відпочинковий комплекс</title>
-    <meta property="og:title" content="ШЕРВУД — Готельно-відпочинковий комплекс поблизу Львова"/>
-    <meta property="og:description" content="Готель, озеро, колиба, альтанки, коні та форель за 35 км від Львова, дорогою на Шегині"/>
+    <meta property="og:title" content="ШЕРВУД — Готельно-відпочинковий комплекс поблизу Львова" />
+    <meta property="og:description" content="Готель, озеро, колиба, альтанки, коні та форель за 35 км від Львова, дорогою на Шегині" />
     <meta property="og:image" content="http://sherwood-resort.com/og_image.jpg">
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content= "http://sherwood-resort.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://sherwood-resort.com/" />
     <link rel="stylesheet" href="assets/css/app.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/jquery.datepick.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="preloader">
-      <div id="pre-logo"></div>
+        <div id="pre-logo"></div>
     </div>
     <div class="lang-select">
-    	<a href="index.html"><img src="assets/img/UA-arm.png" alt="UA"></a>
-    	<a href="index_en.html"><img src="assets/img/EN-arm.png" alt="EN"></a>
-    	<a href="index_pl.html"><img src="assets/img/PL-arm.png" alt="PL"></a>
+        <a href="index.html"><img src="assets/img/UA-arm.png" alt="UA"></a>
+        <a href="index_en.html"><img src="assets/img/EN-arm.png" alt="EN"></a>
+        <a href="index_pl.html"><img src="assets/img/PL-arm.png" alt="PL"></a>
     </div>
     <div class="social-icons">
-    	<a href="https://www.facebook.com/sherwood.hotel.resort" target="_blank">
-    	<i class="fa fa-facebook-square fa-2x"></i></a>
-    	<a href="https://www.instagram.com/sherwoodhr" target="_blank">
-    	<i class="fa fa-instagram fa-2x"></i></a>
-    	<!-- <a href="https://vk.com/sherwood.lviv" target="_blank">
-    	<i class="fa fa-vk fa-2x"></i></a> -->
+        <a href="https://www.facebook.com/sherwood.hotel.resort" target="_blank">
+            <i class="fa fa-facebook-square fa-2x"></i></a>
+        <a href="https://www.instagram.com/sherwoodhr" target="_blank">
+            <i class="fa fa-instagram fa-2x"></i></a>
+        <!-- <a href="https://vk.com/sherwood.lviv" target="_blank">
+        <i class="fa fa-vk fa-2x"></i></a> -->
     </div>
     <div class="booking show-for-medium">
-    	<button class="success button uppercase" onclick="showBooking()" >забронювати</button>
+        <button class="success button uppercase" onclick="showBooking()">забронювати</button>
     </div>
     <div id="main-booking" data-closable>
-    	<div class="flex-vert-space" style="height: 100%">
-    		<div class="orn-3"></div>
-    		<button class="close-button"  type="button" data-close>
-    		<span>&times;</span>
-    		</button>
-    		<div><h3 class="uppercase gold text-center">запит бронювання</h3><br>
-    <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxCReput38Lmh2tpLKCaM2c-YZUbjwkHDJypof6hO-lsuLRS14/exec">
-    	<div class="row">
-    		<div class="large-4 medium-6 column">
-    			<div class="controls">
-    				<input type="text" id="name" name="ім’я" placeholder="ваше ім’я та прізвище *" required >
-    			</div>
-    			<div class="controls">
-    				<input type="text" id="email" name="email" placeholder="e-mail *" required>
-    				<span id="email-invalid" style="display:none;">
-    				неправильний емейл</span>
-    			</div>
-    			<div class="controls">
-    				<input type="tel" id="phone" name="телефон" placeholder="телефон">
-    			</div>
-    			*обов’язкові поля <br>
-    		</div>
-    		<div class="large-4 medium-6 column">
-    			<div class="row">
-    				<div class="small-6 column">
-    					<input type="date" id="arrive" name="приїзд" placeholder="дата приїзду *" required>
-    				</div>
-    				<div class="small-6 column">
-    					<input type="date" id="depart" name="виїзд" placeholder="дата виїзду">
-    				</div>
-    			</div>
-    			<select id="room" name="номер">
-    				<option value="Люкс">номер «Люкс»</option>
-    				<option value="Напівлюкс" >номер «Напівлюкс»</option>
-    				<option value="Тримісний">Тримісний номер</option>
-    				<option value="Двомісний">Двомісний номер</option>
-    				<option value="Одномісний">Одномісний номер</option>
-    			</select>
-    			<div class="row">
-    				<div class="small-6 column text-right">
-    					дорослі:<select  id="adults" name="дорослі">
-    						<option value="1">1</option>
-    						<option value="2" >2</option>
-    						<option value="3">3</option>
-    						<option value="4">4</option>
-    					</select>
-    				</div>
-    				<div class="small-6 column text-right">
-    					діти:<select id="children" name="діти">
-    						<option value="0"> </option>
-    						<option value="1">1</option>
-    						<option value="2" >2</option>
-    						<option value="3">3</option>
-    						<option value="4">4</option>
-    					</select>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="large-4 column">
-    			<textarea id="message" name="побажання" rows="5" placeholder="Особливі побажання:"></textarea>
-    		</div>
-    	</div><br>
-    	<div class="text-center">
-    		<button class="success button uppercase"><i class="fa fa-paper-plane "></i>&nbsp; відіслати</button>
-    	
-    	</div>
-    	
-    </form>
-    <br><br>
-    <div style="display:none;" id="thankyou_message">
-    	<h5 class="uppercase gold text-center">Дякуємо за запит! <br> Незабаром ми вам відповімо</h5>
-    </div>
-    </div>
-    		<div class="orn-3"></div>
-    	</div>
+        <div class="flex-vert-space" style="height: 100%">
+            <div class="orn-3"></div>
+            <button class="close-button" type="button" data-close>
+                <span>&times;</span>
+            </button>
+            <div>
+                <h3 class="uppercase gold text-center">запит бронювання</h3><br>
+                <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxCReput38Lmh2tpLKCaM2c-YZUbjwkHDJypof6hO-lsuLRS14/exec">
+                    <div class="row">
+                        <div class="large-4 medium-6 column">
+                            <div class="controls">
+                                <input type="text" id="name" name="ім’я" placeholder="ваше ім’я та прізвище *" required>
+                            </div>
+                            <div class="controls">
+                                <input type="text" id="email" name="email" placeholder="e-mail *" required>
+                                <span id="email-invalid" style="display:none;">
+                                    неправильний емейл</span>
+                            </div>
+                            <div class="controls">
+                                <input type="tel" id="phone" name="телефон" placeholder="телефон">
+                            </div>
+                            *обов’язкові поля <br>
+                        </div>
+                        <div class="large-4 medium-6 column">
+                            <div class="row">
+                                <div class="small-6 column">
+                                    <input type="date" id="arrive" name="приїзд" placeholder="дата приїзду *" required>
+                                </div>
+                                <div class="small-6 column">
+                                    <input type="date" id="depart" name="виїзд" placeholder="дата виїзду">
+                                </div>
+                            </div>
+                            <select id="room" name="номер">
+                                <option value="Люкс">номер «Люкс»</option>
+                                <option value="Напівлюкс">номер «Напівлюкс»</option>
+                                <option value="Тримісний">Тримісний номер</option>
+                                <option value="Двомісний">Двомісний номер</option>
+                                <option value="Одномісний">Одномісний номер</option>
+                            </select>
+                            <div class="row">
+                                <div class="small-6 column text-right">
+                                    дорослі:<select id="adults" name="дорослі">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                                <div class="small-6 column text-right">
+                                    діти:<select id="children" name="діти">
+                                        <option value="0"> </option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="large-4 column">
+                            <textarea id="message" name="побажання" rows="5" placeholder="Особливі побажання:"></textarea>
+                        </div>
+                    </div><br>
+                    <div class="text-center">
+                        <button class="success button uppercase"><i class="fa fa-paper-plane "></i>&nbsp; відіслати</button>
+                    </div>
+                </form>
+                <br><br>
+                <div style="display:none;" id="thankyou_message">
+                    <h5 class="uppercase gold text-center">Дякуємо за запит! <br> Незабаром ми вам відповімо</h5>
+                </div>
+            </div>
+            <div class="orn-3"></div>
+        </div>
     </div>
     <div class="geo-pin">
-    	<a href="#google-map">
-    	<i class="fa fa-map-marker fa-3x"></i></a>
+        <a href="#google-map">
+            <i class="fa fa-map-marker fa-3x"></i></a>
     </div>
     <section id="home-section" class="hero parallax">
-    	
-    	<div class="dark-overlay">  </div>
-    	<div class="vert-middle text-center">
-    		<div class="main-logo ">
-    			<img src="assets/img/main_logo.png" alt="logo">
-    		</div>
-    		<h3 class="uppercase light-gold">Готельно-відпочинковий комплекс</h3><br>
-    		<div class="hide-for-medium">
-    			<button class="success button uppercase" onclick="showBooking()" >забронювати</button>
-    		</div>
-    	</div>
-    	<div class="arrow-down text-center">
-    		<img src="assets/img/arrow-down_b.png" alt="arrow">
-    	</div>
-    	
+        <div class="dark-overlay"> </div>
+        <div class="vert-middle text-center">
+            <div class="main-logo ">
+                <img src="assets/img/main_logo.png" alt="logo">
+            </div>
+            <h3 class="uppercase light-gold">Готельно-відпочинковий комплекс</h3><br>
+            <div class="hide-for-medium">
+                <button class="success button uppercase" onclick="showBooking()">забронювати</button>
+            </div>
+        </div>
+        <div class="arrow-down text-center">
+            <img src="assets/img/arrow-down_b.png" alt="arrow">
+        </div>
     </section>
     <section id="intro" class="white-section">
-    	<div class="orn-g"></div>
-    	<div class="row column">
-    		<h2 class="uppercase gold text-center">Завітайте у Шервуд</h2>
-    		<p>
-    			Наш комплекс розташований у лісо-парковій зоні, обрамлений в оксамит пахучих трав, дубів, смерек та сосен.
-    			<p>Простора, добре спланована територія, великий паркінг з охороною, озеро та чарівна природа створюють неповторну, затишну атмосферу для вашого приємного відпочинку. Гармонійне поєднання величі природи і досягнень цивілізації, затишку номерів та теплоти й турботи персоналу — основа концепції гостинності нашого комплексу.</p>
-    			<p><a href="#google-map">Ми знаходимось на міжнародній трасі Львів-Шегині за 35км від Львова.</a></p>
-    		</p></div>
-    		<div class="orn-g"></div>
-    	</section>
-    	<section id="main-services" class="">
-    		<div class="expanded row small-collapse" >
-    			<div class="large-6 column flex-vert-space" >
-    				<div class="orn-1"></div>
-    				<div class="text-col">
-    					<h2 class="uppercase gold text-center">готель</h2>
-    					
-    					<p>Пропонуємо Вам 25 номерів:</p>
-    					<ul>
-    						<li>3 номери класу «Люкс»</li>
-    						<li>2 номери — «Напів-Люкс»</li>
-    						<li>9 тримісних номерів</li>
-    						<li>12 двомісних номерів </li>
-    						<li>1 одномісний номер </li>
-    					</ul>
-    
-    					
-    					<p>Та ще 4 двомісних номера, обладнаних за найсучаснішими стандартами, у дерев'яному будиночку</p>
-    					<div class="text-center">
-    						<a href="hotel.html" class="success  button uppercase">детальніше</a>
-    					</div>
-    				</div>
-    				<div class="show-for-large orn-1"></div>
-    			</div>
-    			<div class="large-6 column" >
-    				<div id="hotel" class="owl-carousel owl-theme ">
-    					<img class="lazy" data-src="assets/img/lux_5.jpg" alt="" >
-    					<img class="lazy" data-src="assets/img/lux_4.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/lux_3.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/semi-lux_3.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/semi-lux_4.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/standart-room-2_1.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/standart-room-2_2.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/wooden_house.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/wooden_house_2.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/wooden_house_3.jpg" alt="">
-    				</div>
-    			</div>
-    		</div>
-    		<div class="expanded row small-collapse" >
-    			<div class="large-6 large-push-6 column flex-vert-space" >
-    				<div class="orn-1"></div>
-    				<div class="text-col ">
-    					<h2 class="uppercase gold text-center">ресторан</h2>
-    					
-    					<p>Різноманіття страв європейської кухні, представлене в меню, дарує цілий калейдоскоп задоволень, а cвіжість продуктів та технологія приготування блюд дозволяє бути впевненими у їх якості.</p>
-    					<p> Ресторан «Колиба» розташований поруч з готелем на березі озера та вміщує до 50 осіб. Частує стравами української кухні. </p>
-    					<div class="text-center">
-    						<a href="menu.html" class="success hollow button uppercase">меню</a>&nbsp&nbsp&nbsp
-    						<a href="alco_menu.html" class="success hollow button uppercase">винна мапа</a>
-    					</div>
-    					
-    				</div>
-    				<div class="show-for-large orn-1"></div>
-    			</div>
-    			<div class="large-6 large-pull-6 column" >
-    				<div id="restaurants" class="owl-carousel owl-theme " >
-    					<img class="lazy" data-src="assets/img/restaurant_1.jpg" alt="" >
-    					<img class="lazy" data-src="assets/img/restaurant_2.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/restaurant_3.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/kolyba_3.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/kolyba_2.jpg" alt="">
-    					<img class="lazy" data-src="assets/img/kolyba_1.jpg" alt="">
-    				</div>
-    			</div>
-    		</div>
-    		<div class="expanded row small-collapse" >
-    			<div class="large-6 column flex-vert-space" >
-    				<div class="orn-1"></div>
-    				<div class="text-col">
-    					<h2 class="uppercase gold text-center">конференц-зал</h2>
-    					
-    					<p> Для проведення ділових заходів пропонуємо Вам конференц-зал з можливістю розміщення до 45 осіб.</p>
-    					<p>Це досконале місце для проведення таких заходів як прес-конференції, презентації, круглі столи, тренінги. Спеціально підібрані конференц-меблі нашого залу забезпечують різноманітність модифікацій розміщення учасників в залі.</p>
-    					
-    				</div>
-    				<div class="show-for-large orn-1"></div>
-    			</div>
-    			<div class="large-6 column" >
-    				<div id="conf-hall" class="owl-carousel owl-theme " >
-    					<img class="lazy"  data-src="assets/img/conference_hall.jpg" alt="" >
-    					<img class="lazy"  data-src="assets/img/conference_hall_2.jpg" alt="">
-    					<img class="lazy"  data-src="assets/img/conference_hall_3.jpg" alt="">
-    					
-    				</div>
-    			</div>
-    		</div>
-    		
-    	</section>
-    	<section id="oferta" class="white-section">
-    		<div class="orn-2"></div>
-    		<div class="expanded row column">
-    			<div class="text-col">
-    				<h2 class="uppercase gold text-center">гарячі пропозиції</h2>
-    				<div id="oferta-owl" class="owl-carousel owl-theme ">
-    					<div>
-    						<img class="lazy" data-src="assets/img/wedding-rings.jpg" alt="">
-    						<h5 class="uppercase gold text-center">весілля під ключ</h5>
-    					</div>
-    					<div>
-    						<img class="lazy" data-src="assets/img/birthday-cake.jpg" alt="">
-    						<h5 class="uppercase gold text-center">день народження</h5>
-    					</div>
-    					<div>
-    						<img class="lazy" data-src="assets/img/x-mas.jpg" alt="">
-    						<h5 class="uppercase gold text-center">свят-вечір</h5>
-    					</div>
-    					<div>
-    						<img class="lazy" data-src="assets/img/wedding-rings.jpg" alt="">
-    						<h5 class="uppercase gold text-center">весілля під ключ</h5>
-    					</div>
-    					<div>
-    						<img class="lazy" data-src="assets/img/birthday-cake.jpg" alt="">
-    						<h5 class="uppercase gold text-center">день народження</h5>
-    					</div>
-    					<div>
-    						<img class="lazy" data-src="assets/img/x-mas.jpg" alt="">
-    						<h5 class="uppercase gold text-center">свят-вечір</h5>
-    					</div>
-    					
-    				</div>
-    			</div>
-    		</div>
-    		<div class="orn-g"></div>
-    	</section>
-    	
-    	<section id="activities" class="">
-    		<div class="expanded row small-up-1 medium-up-2 large-up-3 xxlarge-up-4 text-center small-collapse" >
-    			<!-- 		data-equalizer data-equalize-on="medium" data-equalize-by-row="true"
-    			-->
-    			<div class="column activity">
-    				<img class="lazy" data-src="assets/img/spa_1.jpg" alt="спа-салон">
-    				<div class="act-overlay"></div>
-    				<h3 class="uppercase light-gold ">спа-салон</h3>
-    				<div class="act-text"><p>Римська та фінська баня, басейн, джакузі, контрасний душ, трав’яні чаї та настої, окрема кімната для відпочинку, кабельне телебачення, безкоштовна стоянка. Вартість — 950 грн/2 год., лише баня — 680 грн/2 год. До 6 осіб одночасно.</p></div>
-    			</div>
-    			<div class="column activity">
-    				<img class="lazy" data-src="assets/img/billyard.jpg" alt="більярд">
-    				<div class="act-overlay"></div>
-    				<h3 class="uppercase light-gold ">більярд</h3>
-    				<div class="act-text"><p>Ми пропонуємо Вам пограти в російський більярд і пул. У наших залах вдало поєднуються гра в більярд з затишним інтер'єром, веселим відпочинком, теплою атмосферою і демократичними цінами.</p></div>			</div>
-    				<div class="column activity">
-    					<img class="lazy" data-src="assets/img/kolyba_coast.jpg" alt="озеро">
-    					<div class="act-overlay"></div>
-    					<h3 class="uppercase light-gold ">озеро</h3>
-    					<div class="act-text"><p>Ласкаво просимо на наш пляж, де можна позасмагати на лежаках. Відпочинок тут подарує Вам тепло ласкавих хвиль озера і ніжність сонця.  <br> Вартість лежака — 70 грн, а рушника — 30 грн за день</p></div>
-    				</div>
-    				<div class="column activity">
-    					<img class="lazy" data-src="assets/img/altanky_1.jpg" alt="альтанки">
-    					<div class="act-overlay"></div>
-    					<h3 class="uppercase light-gold ">альтанки</h3>
-    					<div class="act-text"><p> Уздовж берега біля камяного пляжу розміщено 8 альтанок, кожна місткістю до 10 осіб, в яких можна посидіти з друзями чи родиною з шумною малечею, замовляючи страви та напої з ресторану «Колиба».
-    					<br> Оренда альтанки — 300 грн, VIP — 600грн </p></div>
-    				</div>
-    				
-    				<div class="column activity">
-    					<img class="lazy" data-src="assets/img/carpio_1.jpg" alt="форель">
-    					<div class="act-overlay"></div>
-    					<h3 class="uppercase light-gold ">риболовля</h3>
-    					<div class="act-text"><p></p></div>
-    				</div>
-    				<div class="column activity">
-    					<img class="lazy" data-src="assets/img/horse_riding.jpg" alt="коні та бричка">
-    					<div class="act-overlay"></div>
-    					<h3 class="uppercase light-gold ">коні та бричка</h3>
-    					<div class="act-text"><p>Кінна прогулянка — це можливість зануритися в красу дикої природи та знайти гармонію в душі. Наш тренер допоможе Вам освоїти науку верхової їзди. Для діточок пропонуємо прогулянки на поні. <br>
-    					Поні в супроводі інструктора – 80грн/прогулянка<br>
-    					катання на бричці — 80грн/прогулянка
-    					</p>
-    					</div>
-    				</div>
-    				<!-- <div class="column activity">
+        <div class="orn-g"></div>
+        <div class="row column">
+            <h2 class="uppercase gold text-center">Завітайте у Шервуд</h2>
+            <p>
+                Наш комплекс розташований у лісо-парковій зоні, обрамлений в оксамит пахучих трав, дубів, смерек та сосен.
+                <p>Простора, добре спланована територія, великий паркінг з охороною, озеро та чарівна природа створюють неповторну, затишну атмосферу для вашого приємного відпочинку. Гармонійне поєднання величі природи і досягнень цивілізації, затишку номерів та теплоти й турботи персоналу — основа концепції гостинності нашого комплексу.</p>
+                <p><a href="#google-map">Ми знаходимось на міжнародній трасі Львів-Шегині за 35км від Львова.</a></p>
+            </p>
+        </div>
+        <div class="orn-g"></div>
+    </section>
+    <section id="main-services" class="">
+        <div class="expanded row small-collapse">
+            <div class="large-6 column flex-vert-space">
+                <div class="orn-1"></div>
+                <div class="text-col">
+                    <h2 class="uppercase gold text-center">готель</h2>
+                    <p>Пропонуємо Вам 25 номерів:</p>
+                    <ul>
+                        <li>3 номери класу «Люкс»</li>
+                        <li>2 номери — «Напів-Люкс»</li>
+                        <li>9 тримісних номерів</li>
+                        <li>12 двомісних номерів </li>
+                        <li>1 одномісний номер </li>
+                    </ul>
+                    <p>Та ще 4 двомісних номера, обладнаних за найсучаснішими стандартами, у дерев'яному будиночку</p>
+                    <div class="text-center">
+                        <a href="hotel.html" class="success  button uppercase">детальніше</a>
+                    </div>
+                </div>
+                <div class="show-for-large orn-1"></div>
+            </div>
+            <div class="large-6 column">
+                <div id="hotel" class="owl-carousel owl-theme ">
+                    <img class="lazy" data-src="assets/img/lux_5.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/lux_4.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/lux_3.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/semi-lux_3.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/semi-lux_4.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/standart-room-2_1.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/standart-room-2_2.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/wooden_house.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/wooden_house_2.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/wooden_house_3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="expanded row small-collapse">
+            <div class="large-6 large-push-6 column flex-vert-space">
+                <div class="orn-1"></div>
+                <div class="text-col ">
+                    <h2 class="uppercase gold text-center">ресторан</h2>
+                    <p>Різноманіття страв європейської кухні, представлене в меню, дарує цілий калейдоскоп задоволень, а cвіжість продуктів та технологія приготування блюд дозволяє бути впевненими у їх якості.</p>
+                    <p> Ресторан «Колиба» розташований поруч з готелем на березі озера та вміщує до 50 осіб. Частує стравами української кухні. </p>
+                    <div class="text-center">
+                        <a href="menu.html" class="success hollow button uppercase">меню</a>&nbsp&nbsp&nbsp
+                        <a href="alco_menu.html" class="success hollow button uppercase">винна мапа</a>
+                    </div>
+                </div>
+                <div class="show-for-large orn-1"></div>
+            </div>
+            <div class="large-6 large-pull-6 column">
+                <div id="restaurants" class="owl-carousel owl-theme ">
+                    <img class="lazy" data-src="assets/img/restaurant_1.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/restaurant_2.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/restaurant_3.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/kolyba_3.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/kolyba_2.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/kolyba_1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="expanded row small-collapse">
+            <div class="large-6 column flex-vert-space">
+                <div class="orn-1"></div>
+                <div class="text-col">
+                    <h2 class="uppercase gold text-center">конференц-зал</h2>
+                    <p> Для проведення ділових заходів пропонуємо Вам конференц-зал з можливістю розміщення до 30 осіб.</p>
+                    <p>Це досконале місце для проведення таких заходів як прес-конференції, презентації, круглі столи, тренінги. Спеціально підібрані конференц-меблі нашого залу забезпечують різноманітність модифікацій розміщення учасників в залі.</p>
+                    <p>Вартість: 300 грн/год, 2000 грн/день</p>
+                </div>
+                <div class="show-for-large orn-1"></div>
+            </div>
+            <div class="large-6 column">
+                <div id="conf-hall" class="owl-carousel owl-theme ">
+                    <img class="lazy" data-src="assets/img/conference_hall.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/conference_hall_2.jpg" alt="">
+                    <img class="lazy" data-src="assets/img/conference_hall_3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="oferta" class="white-section">
+        <div class="orn-2"></div>
+        <div class="expanded row column">
+            <div class="text-col">
+                <h2 class="uppercase gold text-center">гарячі пропозиції</h2>
+                <div id="oferta-owl" class="owl-carousel owl-theme ">
+                    <div>
+                        <img class="lazy" data-src="assets/img/wedding-rings.jpg" alt="">
+                        <h5 class="uppercase gold text-center">весілля під ключ</h5>
+                    </div>
+                    <div>
+                        <img class="lazy" data-src="assets/img/birthday-cake.jpg" alt="">
+                        <h5 class="uppercase gold text-center">день народження</h5>
+                    </div>
+                    <div>
+                        <img class="lazy" data-src="assets/img/x-mas.jpg" alt="">
+                        <h5 class="uppercase gold text-center">свят-вечір</h5>
+                    </div>
+                    <div>
+                        <img class="lazy" data-src="assets/img/wedding-rings.jpg" alt="">
+                        <h5 class="uppercase gold text-center">весілля під ключ</h5>
+                    </div>
+                    <div>
+                        <img class="lazy" data-src="assets/img/birthday-cake.jpg" alt="">
+                        <h5 class="uppercase gold text-center">день народження</h5>
+                    </div>
+                    <div>
+                        <img class="lazy" data-src="assets/img/x-mas.jpg" alt="">
+                        <h5 class="uppercase gold text-center">свят-вечір</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="orn-g"></div>
+    </section>
+    <section id="activities" class="">
+        <div class="expanded row small-up-1 medium-up-2 large-up-3 xxlarge-up-4 text-center small-collapse">
+            <!--        data-equalizer data-equalize-on="medium" data-equalize-by-row="true"
+                -->
+            <div class="column activity">
+                <img class="lazy" data-src="assets/img/spa_1.jpg" alt="спа-салон">
+                <div class="act-overlay"></div>
+                <h3 class="uppercase light-gold ">спа-салон</h3>
+                <div class="act-text">
+                    <p>Римська та фінська баня, басейн, джакузі, контрасний душ, трав’яні чаї та настої, окрема кімната для відпочинку, кабельне телебачення, безкоштовна стоянка. Вартість — 950 грн/2 год., лише баня — 680 грн/2 год. До 6 осіб одночасно.</p>
+                </div>
+            </div>
+            <div class="column activity">
+                <img class="lazy" data-src="assets/img/billyard.jpg" alt="більярд">
+                <div class="act-overlay"></div>
+                <h3 class="uppercase light-gold ">більярд</h3>
+                <div class="act-text">
+                    <p>Ми пропонуємо Вам пограти в російський більярд і пул. У наших залах вдало поєднуються гра в більярд з затишним інтер'єром, веселим відпочинком, теплою атмосферою і демократичними цінами.</p>
+                </div>
+            </div>
+            <div class="column activity">
+                <img class="lazy" data-src="assets/img/kolyba_coast.jpg" alt="озеро">
+                <div class="act-overlay"></div>
+                <h3 class="uppercase light-gold ">озеро</h3>
+                <div class="act-text">
+                    <p>Ласкаво просимо на наш пляж, де можна позасмагати на лежаках. Відпочинок тут подарує Вам тепло ласкавих хвиль озера і ніжність сонця. <br> Вартість лежака — 70 грн, а рушника — 30 грн за день</p>
+                </div>
+            </div>
+            <div class="column activity">
+                <img class="lazy" data-src="assets/img/altanky_1.jpg" alt="альтанки">
+                <div class="act-overlay"></div>
+                <h3 class="uppercase light-gold ">альтанки</h3>
+                <div class="act-text">
+                    <p> Уздовж берега біля камяного пляжу розміщено 8 альтанок, кожна місткістю до 10 осіб, в яких можна посидіти з друзями чи родиною з шумною малечею, замовляючи страви та напої з ресторану «Колиба».
+                        <br> Оренда альтанки — 300 грн, VIP — 600грн </p>
+                </div>
+            </div>
+            <div class="column activity">
+                <img class="lazy" data-src="assets/img/carpio_1.jpg" alt="форель">
+                <div class="act-overlay"></div>
+                <h3 class="uppercase light-gold ">риболовля</h3>
+                <div class="act-text">
+                    <p></p>
+                </div>
+            </div>
+            <div class="column activity">
+                <img class="lazy" data-src="assets/img/horse_riding.jpg" alt="коні та бричка">
+                <div class="act-overlay"></div>
+                <h3 class="uppercase light-gold ">коні та бричка</h3>
+                <div class="act-text">
+                    <p>Кінна прогулянка — це можливість зануритися в красу дикої природи та знайти гармонію в душі. Наш тренер допоможе Вам освоїти науку верхової їзди. Для діточок пропонуємо прогулянки на поні. <br>
+                        Поні в супроводі інструктора – 80грн/прогулянка<br>
+                        катання на бричці — 80грн/прогулянка
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="column activity">
                         <img class="lazy" data-src="assets/img/biking.jpg" alt="велосипеди">
                         <div class="act-overlay"></div>
                         <h3 class="uppercase light-gold ">велосипеди</h3>
                         <div class="act-text"><p>У нас можна взяти напрокат велосипеди для дорослих і дітей та покататись по лісі безпечними стежками. <br> Прокат велосипеда — 60 грн/год.</p></div>
                     </div> -->
-    				<div class="column activity">
-    					<img class="lazy" data-src="assets/img/football.jpg" alt="футбол">
-    					<div class="act-overlay"></div>
-    					<h3 class="uppercase light-gold text-center">футбол</h3>
-    					<div class="act-text"><p>До ваших послуг доглянуте та обгороджене футбольне поле. Для клієнтів готелю — безкоштовно.</p></div>
-    				</div>
-    				<div class="column activity show-for-large hide-for-xxlarge">
-    					<img class="lazy" data-src="assets/img/altanky_2.jpg" alt="інше">
-    					<div class="act-overlay"></div>
-    					<h3 class="uppercase light-gold text-center">... та багато іншого</h3>
-    				</div>
-    				
-    			</div>
-    		</section>
-    		
-    		<div class="white-section">
-    			<div class="orn-2"></div>
-    		</div>
-    		<div class="main-slogan-bgrd parallax lazy">
-    			<div class="dark-overlay">
-    			</div>
-    			<div class="main-slogan text-center">
-    				<h1 class="light-gold uppercase"> будемо раді вас бачити! </h1>
-    			</div>
-    		</div>
-    		<footer>
-    			<div class="orn-1"></div>
-    			<div class="expanded row small-collapse">
-    				<div class="column medium-7 large-9">
-    					<div id="google-map" style="width:100%;height:400px; "></div><br>
-    				</div>
-    				<div class="column medium-5 large-3">
-    					<div class="text-col">
-    						<p>81342, Львівська область
-    							<br>с. Довгомостиська, вул. Зелена 38б
-    							<br>рецепція: <a href="tel://+380323438097">+38 03234-38-097</a>
-                                <br><span class="gold small">На території немає покриття мережі «Київстар»</span>
-    							
-    						</p>
-    						<p>sherwood.lviv@gmail.com</p>
-    						<div class="orn-1"></div><br>
-    						<div class="social-icons float-right">
-    							<a href="https://www.facebook.com/sherwood.hotel.resort" target="_blank">
-    							<i class="fa fa-facebook-square fa-2x"></i></a>
-    							<a href="https://www.instagram.com/sherwoodhr" target="_blank">
-    							<i class="fa fa-instagram fa-2x"></i></a>
-    							<!-- <a href="https://vk.com/sherwood.lviv" target="_blank">
-    							<i class="fa fa-vk fa-2x"></i></a> -->
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    		</footer>
-    		<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAfuN7UgfDB2RfqBeNIZ1S_rpZ6HU-GKYU"></script>
-    		<script>
-    		var myCenter=new google.maps.LatLng(49.784469, 23.454320);
-    		var myPin='assets/img/map-pin.png';
-    		function initialize()
-    		{
-    		var mapProp = {
-    		zoomControl: true,
-    		scrollwheel: false,
-    		center:myCenter,
-    		zoom:10,
-    		disableDefaultUI: true,
-    		mapTypeId:google.maps.MapTypeId.ROADMAP
-    		};
-    		var mapLviv=new google.maps.Map(document.getElementById("google-map"),mapProp);
-    		var myMarker=new google.maps.Marker({
-    		position: myCenter,
-    		icon: myPin,
-    		map: mapLviv,
-    		title: 'с. Довгомостиська, Зелена 38-Б'
-    		});
-    		}
-    		google.maps.event.addDomListener(window, 'load', initialize);
-    		</script>
+            <div class="column activity">
+                <img class="lazy" data-src="assets/img/football.jpg" alt="футбол">
+                <div class="act-overlay"></div>
+                <h3 class="uppercase light-gold text-center">футбол</h3>
+                <div class="act-text">
+                    <p>До ваших послуг доглянуте та обгороджене футбольне поле. Для клієнтів готелю — безкоштовно.</p>
+                </div>
+            </div>
+            <div class="column activity show-for-large hide-for-xxlarge">
+                <img class="lazy" data-src="assets/img/altanky_2.jpg" alt="інше">
+                <div class="act-overlay"></div>
+                <h3 class="uppercase light-gold text-center">... та багато іншого</h3>
+            </div>
+        </div>
+    </section>
+    <div class="white-section">
+        <div class="orn-2"></div>
+    </div>
+    <div class="main-slogan-bgrd parallax lazy">
+        <div class="dark-overlay">
+        </div>
+        <div class="main-slogan text-center">
+            <h1 class="light-gold uppercase"> будемо раді вас бачити! </h1>
+        </div>
+    </div>
+    <footer>
+        <div class="orn-1"></div>
+        <div class="expanded row small-collapse">
+            <div class="column medium-7 large-9">
+                <div id="google-map" style="width:100%;height:400px; "></div><br>
+            </div>
+            <div class="column medium-5 large-3">
+                <div class="text-col">
+                    <p>81342, Львівська область
+                        <br>с. Довгомостиська, вул. Зелена 38б
+                        <br>рецепція: <a href="tel://+380323438097">+38 03234-38-097</a>
+                        <br><span class="gold small">На території немає покриття мережі «Київстар»</span>
+                    </p>
+                    <p>sherwood.lviv@gmail.com</p>
+                    <div class="orn-1"></div><br>
+                    <div class="social-icons float-right">
+                        <a href="https://www.facebook.com/sherwood.hotel.resort" target="_blank">
+                            <i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.instagram.com/sherwoodhr" target="_blank">
+                            <i class="fa fa-instagram fa-2x"></i></a>
+                        <!-- <a href="https://vk.com/sherwood.lviv" target="_blank">
+                                <i class="fa fa-vk fa-2x"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAfuN7UgfDB2RfqBeNIZ1S_rpZ6HU-GKYU"></script>
+    <script>
+    var myCenter = new google.maps.LatLng(49.784469, 23.454320);
+    var myPin = 'assets/img/map-pin.png';
+
+    function initialize() {
+        var mapProp = {
+            zoomControl: true,
+            scrollwheel: false,
+            center: myCenter,
+            zoom: 10,
+            disableDefaultUI: true,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var mapLviv = new google.maps.Map(document.getElementById("google-map"), mapProp);
+        var myMarker = new google.maps.Marker({
+            position: myCenter,
+            icon: myPin,
+            map: mapLviv,
+            title: 'с. Довгомостиська, Зелена 38-Б'
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js_plugins/owl.carousel.min.js"></script>
     <script src="assets/js_plugins/jquery.lazy.min.js"></script>
@@ -407,20 +407,26 @@
     <script src="assets/js_plugins/datepick/jquery.datepick.min.js"></script>
     <script src="assets/js_plugins/datepick/jquery.datepick-uk.js"></script>
     <script data-cfasync="false" src="assets/js_plugins/form-submission-handler.js"></script>
-    <script>    
-    $('input[type="date"]').datepick(
-        {
-            showAnim: 'show'
-        });
-      
+    <script>
+    $('input[type="date"]').datepick({
+        showAnim: 'show'
+    });
     </script>
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-82329311-3', 'auto');
     ga('send', 'pageview');
     </script>
-  </body>
+</body>
+
 </html>
