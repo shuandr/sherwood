@@ -18,37 +18,50 @@
 </head>
 
 <body>
-    <slick settings="mainSlickConfig" >
-        <div ng-repeat="slide in data.menu">
+    <slick settings="mainSlickConfig">
+        <div ng-repeat="slide in data.hall.topSlider">
             <div class="menu-slide" style="background-image: url(assets/img/{[{slide}]})">
             </div>
         </div>
     </slick>
     <div class="grid-container">
-        <div class="grid-x grid-padding-x align-center main-bg ">
-            <div class="cell medium-11 large-10 "><br>
-                <h1 class="uppercase gold text-center">{[{lngData.menu.mainMenu}]}</h1>
-                <div ng-repeat="section in sherMenu">
-                    <h3 class="menu-section text-center uppercase">{[{section.section}]}</h3>
-                    <table>
-                        <tr ng-repeat="dish in section.dishes">
-                            <td class="dish-name">{[{dish.name}]}
-                                <br>
-                                <p class="dish-descr">{[{dish.descr}]}</p>
-                            </td>
-                            <td class="dish-mass text-right">{[{dish.mass}]}</td>
-                            <td class="dish-price text-right">{[{dish.price}]}</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="text-center"><a href="#!/alco-menu" class="hollow button uppercase">{[{lngData.menu.alco}]}</a> &nbsp; &nbsp;<a href="#!/breakfast" class="hollow button uppercase">{[{lngData.menu.brkfs}]}</a>
-                </div>
+        <div class="grid-x grid-padding-x align-center main-bg">
+            <div class="cell medium-11 large-10 text-center">
+                <!-- INTRO -->
+                <br>
+                <h1 class="uppercase gold text-center">{[{lngData.hall.intro.h}]}</h1>
+                <h5 class=" pre dark-gold text-center">{[{lngData.hall.intro.p}]}</h5>
+                <div class="orn"></div>
+                <!-- banquette -->
+                <h2 class="uppercase light-gold  ">{[{lngData.hall.banquette.h}]}</h2>
+                <p class="pre">{[{lngData.hall.banquette.p}]}</p>
+                <slick settings="smallSlickConfig">
+                    <img ng-repeat="slide in data.hall.banquette" src="assets/img/{[{slide}]}" alt="">
+                </slick>
+                <div class="orn"></div>
+                <!-- END -->
+                <!-- conf -->
+                <div id="conf"></div>
+                <h3 class="uppercase light-gold  ">{[{lngData.hall.bigConf.h}]}</h3>
+                <p class="pre">{[{lngData.hall.bigConf.p}]}</p>
+                <slick settings="smallSlickConfig">
+                    <img ng-repeat="slide in data.hall.bigConf" src="assets/img/{[{slide}]}" alt="">
+                </slick>
+                <div class="orn"></div>
+                 <h3 class="uppercase light-gold  ">{[{lngData.hall.smConf.h}]}</h3>
+                <p class="pre">{[{lngData.hall.smConf.p}]}</p>
+                <slick settings="smallSlickConfig">
+                    <img ng-repeat="slide in data.hall.conf" src="assets/img/{[{slide}]}" alt="">
+                </slick>
+                <div class="orn"></div>
+                <!-- END -->
             </div>
-        </div><br>
+            <div class="orn"></div>
+            <br>
+        </div><br><br>
         <div class="text-center">
-            <a href="tel://{[{data.tel}]}" class="large button uppercase"><i class="fas fa-phone "></i> {[{lngData.menu.bookTbl}]} </a>
+            <a href="#!/booking" ng-click="setBookType('hall')" class="large button uppercase"><i class="fas fa-phone "></i> {[{lngData.hall.btn}]}</a>
         </div>
-    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-route.js"></script>

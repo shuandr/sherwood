@@ -1,0 +1,127 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ШЕРВУД | Готельно-відпочинковий комплекс</title>
+    <meta property="og:title" content="ШЕРВУД — Готельно-відпочинковий комплекс поблизу Львова" />
+    <meta property="og:description" content="Готель, озеро, колиба, альтанки, коні та форель за 35 км від Львова, дорогою на Шегині" />
+    <meta property="og:image" content="http://sherwood-resort.com/og_image.webp">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://sherwood-resort.com/" />
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://kit.fontawesome.com/0caeff61d9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <br><br><br>
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-middle" style="min-height: 84vh; margin-top:8vh ">
+            <div class="cell main-bg "><br>
+                <div class="text-center">
+                    <a ng-repeat="type in book.bookTypes" ng-click="setBookType(type.bookType)" class="hollow button uppercase" style="margin: 0.4rem">{[{type.name}]}</a>
+                </div>
+                <h3 class="uppercase gold text-center">{[{book.title}]}: {[{bookType}]}</h3>
+                <br>
+                <form ng-submit="formSubmit()" id="gform">
+                    <div class="grid-x grid-padding-x">
+                        <div class="large-4 medium-6 cell">
+                            <input type="text" id="name" name="ім’я" placeholder="{[{book.name}]}" required>
+                            <input type="email" id="email" name="email" autocomplete="email" placeholder="e-mail*" required>
+                            <!-- <span id="email-invalid" style="display:none;">
+                                    {[{book.errEmail}]}</span> -->
+                            <label for="phone">{[{book.tel}]}:</label>
+                            <input type="tel" id="phone" name="телефон" ng-model="phone" angular-mask="(000) 000-00-00" placeholder="000 000-00-00">
+                            {[{book.required}]}<br>
+                        </div>
+                        <div ng-if="bookType=='hotel'" class="large-4 medium-6 cell">
+                            <div class="grid-x grid-padding-x">
+                                <div class="small-6 cell">
+                                    <label for="arrive">{[{book.arrive}]}:</label>
+                                    <input type="date" id="arrive" name="приїзд" required>
+                                </div>
+                                <div class="small-6 cell">
+                                    <label for="depart">{[{book.depart}]}:</label>
+                                    <input type="date" id="depart" name="виїзд">
+                                </div>
+                            </div>
+                            <label for="room">{[{book.room}]}:</label>
+                            <select id="room" name="номер">
+                                <option ng-repeat="opt in book.roomOpt" value="{[{opt}]}">{[{opt}]}</option>
+                            </select>
+                            <div class="grid-x grid-padding-x">
+                                <div class="small-6 cell">
+                                    <label for="adults">{[{book.adults}]}:</label>
+                                    <select id="adults" name="дорослі">
+                                        <option ng-repeat="opt in book.quant" value="{[{opt}]}">{[{opt}]}</option>
+                                    </select>
+                                </div>
+                                <div class="small-6 cell">
+                                    <label for="children">{[{book.children}]}:</label>
+                                    <select id="children" name="діти">
+                                        <option ng-repeat="opt in book.quant" value="{[{opt}]}">{[{opt}]}</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-if="bookType=='hall'" class="large-4 medium-6 cell">
+                            <div class="grid-x grid-padding-x">
+                                <div class="small-6 cell">
+                                    <label for="eventdate">{[{book.eventdate}]}:*</label>
+                                    <input type="date" id="eventdate" name="дата заходу" required>
+                                </div>
+                                <div class="small-6 cell">
+                                    <label for="persons">{[{book.persons}]}:</label>
+                                    <input type="number" max="150" id="persons" name="кількість осіб" required>
+                                </div>
+                            </div>
+                            <label for="event">{[{book.eventType}]}:</label>
+                            <select id="event" name="подія">
+                                <option ng-repeat="opt in book.events" value="{[{opt}]}">{[{opt}]}</option>
+                            </select>
+                        </div>
+                        <div ng-if="bookType=='photo'" class="large-4 medium-6 cell">
+                            <div class="grid-x grid-padding-x">
+                                <div class="small-6 cell">
+                                    <label for="photodate">{[{book.photodate}]}:*</label>
+                                    <input type="date" id="photodate" name="дата фото" required>
+                                </div>
+                                <div class="small-6 cell">
+                                    <label for="phototime">{[{book.phototime}]}:</label>
+                                    <input type="time" max="22:00" value="08:00" step="10" id="phototime" name="час фото" >
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="large-4 cell">
+                            <textarea id="message" name="побажання" rows="5" placeholder="{[{book.comment}]}"></textarea>
+                        </div>
+                    </div><br>
+                    <div class="text-center">
+                        <button class="large button uppercase"><i class="fas fa-paper-plane "></i>&nbsp; {[{book.submit}]}</button>
+                    </div>
+                </form>
+                <br><br>
+                <div style="display:none;" id="thankyou_message">
+                    <h4 class="uppercase gold text-center">{[{book.thnxMsg}]}</h4>
+                </div><br><br>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+    <script src="assets/js_plugins/angular-locale_uk-ua.js"></script>
+    <script src="assets/js_plugins/myAngular.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js_plugins/angular-slick.js"></script>
+    
+</body>
+
+</html>
