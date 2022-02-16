@@ -156,7 +156,7 @@
   },
   "hotel": {
     "h": "hotel",
-    "intro": "All prices include breakfast, except wood house\n Additional bed for kids — 380 UAH\nAll prices do not include tourist tax \n(30 UAH for Ukrainian citizens, 180 UAH — for foreigners, per night per person)",
+    "intro": "All prices include breakfast, except wood house\n Additional bed for kids — 380 UAH\nAll prices do not include tourist tax \n(32.5 UAH for Ukrainian citizens, 195 UAH — for foreigners, per night per person)",
     "introBtn": "breakfasts",
     "roomTypes": [
       {
