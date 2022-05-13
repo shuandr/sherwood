@@ -50,15 +50,19 @@
     "dishes": [{
         "name": "Еспрессо",
     "mass": null,
-    "price": 26
+    "price": 45
 }, {
     "name": "Кава з молоком",
     "mass": null,
-    "price": 30
+    "price": 52
 }, {
     "name": "Американо",
     "mass": null,
-    "price": 29
+    "price": 45
+}, {
+    "name": "Лате",
+    "mass": null,
+    "price": 55
 }, {
     "name": "Чай пакетований",
     "mass": null,
