@@ -468,23 +468,23 @@
     "dishes": [
     {
         "name": "Еспресо",
-        "bottle_price": "26"
+        "bottle_price": "45"
     },
     {
         "name": "Лате",
-        "bottle_price": "30"
+        "bottle_price": "55"
     },
     {
-        "name": "Глясе",
-        "bottle_price": "35"
+        "name": "Капучіно                                                  ",
+        "bottle_price": "55"
     },
     {
         "name": "Американо",
-        "bottle_price": "29"
+        "bottle_price": "45"
     },
     {
         "name": "Чай в асортименті",
-        "bottle_price": "35"
+        "bottle_price": "45"
     },
     {
         "name": "Чай карпатський",
