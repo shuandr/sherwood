@@ -321,7 +321,7 @@
     {
         "name": "Бочкове на розлив",
         "volume": 0.5,
-        "bottle-price": null
+        "bottle-price": 80
     },
     {
         "name": "Tuborg світле",
