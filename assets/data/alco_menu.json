@@ -17,8 +17,8 @@
     {
         "name": "Карпати",
         "volume": 0.5,
-        "bottle_price": 1100,
-        "price": 110
+        "bottle_price": 1200,
+        "price": 120
     },
     {
         "name": "Hennessy",
@@ -33,14 +33,14 @@
     {
         "name": "Bell’s",
         "volume": 0.5,
-        "bottle_price": 470,
-        "price": 47
+        "bottle_price": 560,
+        "price": 56
     },
     {
         "name": "Johnnie Walker black",
         "volume": 0.5,
-        "bottle_price": 1250,
-        "price": 125
+        "bottle_price": 1400,
+        "price": 140
     },
     {
         "name": "Johnnie Walker red",
@@ -51,8 +51,8 @@
     {
         "name": "Jameson",
         "volume": 0.5,
-        "bottle_price": 830,
-        "price": 83
+        "bottle_price": 1060,
+        "price": 106
     },
     {
         "name": "Jack Daniels",
@@ -63,8 +63,8 @@
     {
         "name": "Jim Beam",
         "volume": 0.5,
-        "bottle_price": 750,
-        "price": 75
+        "bottle_price": 950,
+        "price": 95
     }]
 },
 {
@@ -79,8 +79,8 @@
     {
         "name": "Фінляндія",
         "volume": 0.5,
-        "bottle_price": 480,
-        "price": 48
+        "bottle_price": 520,
+        "price": 52
     },
     {
         "name": "Nemiroff Чорна",
@@ -129,8 +129,8 @@
     {
         "name": "Бехеровка",
         "volume": 0.5,
-        "bottle_price": 480,
-        "price": 48
+        "bottle_price": 540,
+        "price": 54
     },
     {
         "name": "Jagermeister",
@@ -171,8 +171,8 @@
     {
         "name": "Baileys",
         "volume": 0.5,
-        "bottle_price": 800,
-        "price": 80
+        "bottle_price": 1000,
+        "price": 100
     },
     {
         "name": "Джин",
@@ -321,7 +321,7 @@
     {
         "name": "Бочкове на розлив",
         "volume": 0.5,
-        "bottle_price": 80
+        "bottle_price": 60
     },
     {
         "name": "Tuborg світле",
@@ -353,7 +353,7 @@
     },
     {
         "name": "Молочний,Шоколадний,Банановий",
-        "bottle_price": 65
+        "bottle_price": 80
     },
     {
         "name": "Фреш апельсиновий",
@@ -393,7 +393,7 @@
     {
         "name": "Боржомі",
         "volume": 0.5,
-        "bottle_price": 70
+        "bottle_price": 80
     },
     {
         "name": "Кока-кола",
@@ -442,13 +442,13 @@
     },
     {
         "name": "Чай Карпатський",
-        "bottle_price": 60
+        "bottle_price": 70
     },
     {
         "name": "Чай в асортименті",
         "volume": "чорний, зелений, травяний, імбирний",
 
-        "bottle_price": 60
+        "bottle_price": 70
     }]
 },
 {
