@@ -123,7 +123,7 @@
       },
       {
         "h": "Gazebo",
-        "p": "There are 8 gazebo (for 10 persons) near the stone beach, with service from «Kolyba» restaurant.\nGazebo rent — 300 UAH, VIP — 500 UAH",
+        "p": "There are 8 gazebo (for 10 persons) near the stone beach, with service from «Kolyba» restaurant.\nGazebo rent — 200 UAH, VIP — 500 UAH",
         "img": "altanky_1.webp"
       },
       {
@@ -133,7 +133,7 @@
       },
       {
         "h": "Horse riding",
-        "p": "Both experienced riders and newbies can try various short and long horse riding trips.\nRiding cost – 200 UAH/hour\nWith instructor – 50 UAH/500 m",
+        "p": "Both experienced riders and newbies can try various short and long horse riding trips.\nRiding cost – 170 UAH",
         "img": "horse_riding_2.webp"
       },
       {
@@ -156,7 +156,7 @@
   },
   "hotel": {
     "h": "hotel",
-    "intro": "All prices include breakfast, except wood house\n Additional bed for kids — 380 UAH\nAll prices do not include tourist tax \n(35.5 UAH for Ukrainian citizens, 355 UAH — for foreigners, per night per person)",
+    "intro": "All prices include breakfast, except wood house\n Additional bed for kids — 400 UAH\nAll prices do not include tourist tax \n(35.5 UAH for Ukrainian citizens, 355 UAH — for foreigners, per night per person)",
     "introBtn": "breakfasts",
     "roomTypes": [
       {
@@ -172,7 +172,7 @@
           "Bathroom with a bathtub and body-care products",
           "Bathrobe and towels"
         ],
-        "price": "Price: 2150 UAH",
+        "price": "Price: 2300 UAH",
         "img": [
           "lux_5.webp",
           "lux_4.webp",
@@ -194,7 +194,7 @@
           "Bathroom with a bathtub and body-care products",
           "Bathrobe and towels"
         ],
-        "price": "Price: 1850 UAH",
+        "price": "Price: 1950 UAH",
         "img": [
           "semi-lux_2.webp",
           "semi-lux_4.webp",
@@ -210,7 +210,7 @@
           "Free broadband Internet",
           "Bathrobe and towels"
         ],
-        "price": "Price: 1700 UAH",
+        "price": "Price: 1850 UAH",
         "img": [
           "triple_room_1.webp",
           "triple_room_2.webp",
@@ -229,7 +229,7 @@
           "Free broadband Internet",
           "Bathrobe and towels"
         ],
-        "price": "Price: 1500 UAH",
+        "price": "Price: 1650 UAH",
         "img": [
           "double_room_1.webp",
           "double_room_2.webp",
@@ -239,24 +239,7 @@
           "standart-room-2-3.webp",
           "standart-room-2-5.webp"
         ]
-      },
-      {
-        "h": "wooden house",
-        "p": " Evergreen forest, gorgeous picturesque views — all that enchanting beauty you will see through the window of your bedroom. The guests are immersed into serenity of the surrounding nature. This is the best place for people who would like to get away from the fuss of daily routine.\nIn each room:",
-        "list": [
-          "Desk",
-          "Large plasma TV with cable channels",
-          "Bathroom with a bathtub and body-care products",
-          "Bathrobe and towels"
-        ],
-        "price": "Price: 1150 UAH",
-        "img": [
-          "wooden_house-1.webp",
-          "wooden_house-2.webp",
-          "wooden_house-3.webp"
-        ]
-      }
-    ],
+      }],
     "bookBtn": "book"
   },
   "hall": {
