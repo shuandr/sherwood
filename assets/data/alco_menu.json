@@ -65,6 +65,12 @@
         "volume": 0.5,
         "bottle_price": 950,
         "price": 95
+    },
+    {
+        "name": "William Peel",
+        "volume": 0.7,
+        "bottle_price": 1050,
+        "price": 75
     }]
 },
 {
