@@ -73,8 +73,7 @@
         "2 junior suite rooms",
         "9 triple rooms",
         "12 double rooms",
-        "1 single rooms",
-        "4 double rooms in wooden house"
+        "1 single rooms"
       ],
       "p2": " ",
       "moreBtn": "read more"
@@ -107,19 +106,9 @@
         "img": "bania.webp"
       },
       {
-        "h": "Kids room",
-        "p": " ",
-        "img": "kids-room.webp"
-      },
-      {
         "h": "billiards",
         "p": "Our billiard rooms provide an attractive mixture of cue games, cosy setting, cheerful retreat, relaxing atmosphere and affordable prices. In our hotel you may participate in billiard tournaments and even win a valuable prize or simply watch professionals playing together with your friends.",
         "img": "billyard.webp"
-      },
-      {
-        "h": "lake",
-        "p": "Rent: beach chair — 150 UAH, towel — 50 UAH per day",
-        "img": "kolyba_coast.webp"
       },
       {
         "h": "Gazebo",
