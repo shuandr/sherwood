@@ -145,7 +145,7 @@
   },
   "hotel": {
     "h": "hotel",
-    "intro": "All prices include breakfast, except wood house\n Additional bed for kids — 400 UAH\nAll prices do not include tourist tax \n(35.5 UAH for Ukrainian citizens, 355 UAH — for foreigners, per night per person)",
+    "intro": "All prices include breakfast, except wood house\n Additional bed for kids — 400 UAH\nAll prices do not include tourist tax \n(40 UAH for Ukrainian citizens, 400 UAH — for foreigners, per night per person)",
     "introBtn": "breakfasts",
     "roomTypes": [
       {
@@ -161,7 +161,7 @@
           "Bathroom with a bathtub and body-care products",
           "Bathrobe and towels"
         ],
-        "price": "Price: 2300 UAH",
+        "price": "Price: 2450 UAH",
         "img": [
           "lux_5.webp",
           "lux_4.webp",
@@ -183,7 +183,7 @@
           "Bathroom with a bathtub and body-care products",
           "Bathrobe and towels"
         ],
-        "price": "Price: 1950 UAH",
+        "price": "Price: 2200 UAH",
         "img": [
           "semi-lux_2.webp",
           "semi-lux_4.webp",
@@ -199,7 +199,7 @@
           "Free broadband Internet",
           "Bathrobe and towels"
         ],
-        "price": "Price: 1850 UAH",
+        "price": "Price: 1980 UAH",
         "img": [
           "triple_room_1.webp",
           "triple_room_2.webp",
@@ -218,7 +218,7 @@
           "Free broadband Internet",
           "Bathrobe and towels"
         ],
-        "price": "Price: 1650 UAH",
+        "price": "Price: 1850 UAH",
         "img": [
           "double_room_1.webp",
           "double_room_2.webp",
