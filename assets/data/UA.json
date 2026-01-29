@@ -29,26 +29,20 @@
         "a": "#!/booking"
     }],
     "main": {
-        "topSlider": [{
+        "topSlider": [
+            {
                 "text": "готель & резорт",
                 "img": "hotel-w-30.webp",
                 "href": "#!/hotel",
                 "button": "забронювати",
                 "bookType": "hotel"
             }, {
-                "text": "бенкетний зал",
-                "img": "hall_2.webp",
-                "href": "#!/hall",
-                "button": "замовити",
-                "bookType": "hall"
-            }, {
-                "text": "весільні фотосесії",
-                "img": "wedding_2.webp",
-                "href": " ",
-                "button": "замовити",
-                "bookType": "photo"
+                "text": "готель & резорт",
+                "img": "hotel-w-30.webp",
+                "href": "#!/hotel",
+                "button": "забронювати",
+                "bookType": "hotel"
             }
-
         ],
 
         "intro": {
