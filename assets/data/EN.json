@@ -41,7 +41,7 @@
         "topSlider": [
         {
             "text": "hotel & resort",
-            "img": "hotel_2.webp",
+            "img": "hotel-w-30.webp",
             "href": "#!/hotel",
             "button": "book",
             "bookType": "hotel"

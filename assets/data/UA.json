@@ -31,7 +31,7 @@
     "main": {
         "topSlider": [{
                 "text": "готель & резорт",
-                "img": "hotel_2.webp",
+                "img": "hotel-w-30.webp",
                 "href": "#!/hotel",
                 "button": "забронювати",
                 "bookType": "hotel"
