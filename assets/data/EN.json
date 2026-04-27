@@ -41,7 +41,7 @@
         "topSlider": [
         {
             "text": "hotel & resort",
-            "img": "hotel-w-30.webp",
+            "img": "hotel_2.webp",
             "href": "#!/hotel",
             "button": "book",
             "bookType": "hotel"
@@ -164,7 +164,7 @@
                 "Bathroom with a bathtub and body-care products",
                 "Bathrobe and towels"
             ],
-            "price": "Price: 2450 UAH",
+            "price": "Price: 2950 UAH",
             "img": [
                 "lux_5.webp",
                 "lux_4.webp",
@@ -186,7 +186,7 @@
                 "Bathroom with a bathtub and body-care products",
                 "Bathrobe and towels"
             ],
-            "price": "Price: 2200 UAH",
+            "price": "Price: 2500 UAH",
             "img": [
                 "semi-lux_2.webp",
                 "semi-lux_4.webp",
@@ -202,7 +202,7 @@
                 "Free broadband Internet",
                 "Bathroom with towels and hairdryer"
             ],
-            "price": "Price: 2100 UAH",
+            "price": "Price: 2400 UAH",
             "img": [
                 "triple_room_1.webp",
                 "triple_room_2.webp",
@@ -220,7 +220,7 @@
                 "Free broadband Internet",
                 "Bathroom with towels and hairdryer"
             ],
-            "price": "Price: 1980 UAH",
+            "price": "Price: 2280 UAH",
             "img": [
                 "new-triple.webp",
                 "triple_room_6.webp"
@@ -236,7 +236,7 @@
                 "Free broadband Internet",
                 "Bathroom with towels and hairdryer"
             ],
-            "price": "Price: 1850 UAH",
+            "price": "Price: 2150 UAH",
             "img": [
                 "double_room_1.webp",
                 "double_room_2.webp",
