@@ -5,26 +5,26 @@
     {
         "name": "Меtаха",
         "volume": 0.5,
-        "bottle_price": 1050,
-        "price": 105
+        "bottle_price": 1350,
+        "price": 135
     },
     {
         "name": "Закарпатський",
         "volume": 0.5,
-        "bottle_price": 750,
-        "price": 75
+        "bottle_price": 950,
+        "price": 95
     },
     {
         "name": "Карпати",
         "volume": 0.5,
-        "bottle_price": 1400,
-        "price": 140
+        "bottle_price": 1700,
+        "price": 170
     },
     {
         "name": "Hennessy",
         "volume": 0.5,
-        "bottle_price": 2000,
-        "price": 200
+        "bottle_price": 2200,
+        "price": 220
     }]
 },
 {
@@ -33,44 +33,38 @@
     {
         "name": "Bell’s",
         "volume": 0.5,
-        "bottle_price": 760,
-        "price": 576
+        "bottle_price": 1060,
+        "price": 106
     },
     {
         "name": "Johnnie Walker black",
         "volume": 0.5,
-        "bottle_price": 1600,
-        "price": 160
+        "bottle_price": 1900,
+        "price": 190
     },
     {
         "name": "Johnnie Walker red",
         "volume": 0.5,
-        "bottle_price": 1000,
-        "price": 100
+        "bottle_price": 1400,
+        "price": 140
     },
     {
         "name": "Jameson",
         "volume": 0.5,
-        "bottle_price": 1260,
-        "price": 126
+        "bottle_price": 1590,
+        "price": 159
     },
     {
         "name": "Jack Daniels",
         "volume": 0.5,
-        "bottle_price": 1180,
-        "price": 118
+        "bottle_price": 1480,
+        "price": 148
     },
     {
         "name": "Jim Beam",
         "volume": 0.5,
-        "bottle_price": 1150,
-        "price": 115
-    },
-    {
-        "name": "William Peel",
-        "volume": 0.7,
-        "bottle_price": 1330,
-        "price": 95
+        "bottle_price": 1430,
+        "price": 143
     }]
 },
 {
@@ -79,43 +73,43 @@
     {
         "name": "Козацька Рада",
         "volume": 0.5,
-        "bottle_price": 500,
-        "price": 50
+        "bottle_price": 750,
+        "price": 75
     },
     {
         "name": "Фінляндія",
         "volume": 0.5,
-        "bottle_price": 720,
-        "price": 72
+        "bottle_price": 1020,
+        "price": 102
     },
     {
         "name": "Nemiroff Чорна",
         "volume": 0.5,
-        "bottle_price": 550,
-        "price": 55
+        "bottle_price": 780,
+        "price": 78
     },
     {
         "name": "Nemiroff Делікат",
         "volume": 0.5,
-        "bottle_price": 550,
-        "price": 55
+        "bottle_price": 780,
+        "price": 78
     },
     {
         "name": "Медовуха",
         "volume": 0.5,
-        "bottle_price": 480,
-        "price": 48
+        "bottle_price": 710,
+        "price": 71
     },
     {
         "name": "Грушівка",
         "volume": 0.5,
-        "bottle_price": 520,
-        "price": 52
+        "bottle_price": 690,
+        "price": 69
     },
     {
         "name": "Львівська",
         "volume": 0.5,
-        "bottle_price": 680,
+        "bottle_price": 94,
         "price": 68
     }]
 },
@@ -126,69 +120,69 @@
         {
             "name": "Бехеровка",
             "volume": 0.5,
-            "bottle_price": 740,
-            "price": 74
+            "bottle_price": 1010,
+            "price": 101
         },
         {
             "name": "Jagermeister",
             "volume": 0.5,
-            "bottle_price": 860,
-            "price": 86
+            "bottle_price": 1090,
+            "price": 109
         },
         {
             "name": "Martini",
             "volume": 0.5,
-            "bottle_price": 550,
-            "price": 55
+            "bottle_price": 770,
+            "price": 77
         },
         {
             "name": "Tequila True Silver",
             "volume": 0.5,
-            "bottle_price": 1000,
-            "price": 100
+            "bottle_price": 12470,
+            "price": 1247
         },
         {
             "name": "Бакарді білий",
             "volume": 0.5,
-            "bottle_price": 1060,
-            "price": 106
+            "bottle_price": 1300,
+            "price": 130
         },
         {
             "name": "Бакарді чорний",
             "volume": 0.5,
-            "bottle_price": 1060,
-            "price": 106
+            "bottle_price": 1300,
+            "price": 130
         },
 
         {
             "name": "Ром Captain Morgan білий",
             "volume": 0.5,
-            "bottle_price": 960,
-            "price": 96
+            "bottle_price": 1270,
+            "price": 127
         },
         {
             "name": "Ром Captain Morgan золотий",
             "volume": 0.5,
-            "bottle_price": 940,
-            "price": 94
+            "bottle_price": 1240,
+            "price": 124
         },
         {
             "name": "Ром Captain Morgan чорний",
             "volume": 0.5,
-            "bottle_price": 900,
-            "price": 90
+            "bottle_price": 1480,
+            "price": 148
         },
         {
             "name": "Baileys",
             "volume": 0.5,
-            "bottle_price": 1100,
-            "price": 110
+            "bottle_price": 1370,
+            "price": 137
         },
         {
             "name": "Джин",
             "volume": 0.5,
-            "bottle_price": 900,
-            "price": 90
+            "bottle_price": 1270,
+            "price": 127
         }
     ]
 },
@@ -244,33 +238,33 @@
         {
             "name": "Шардоне біле сухе",
             "volume": 0.75,
-            "bottle_price": 600,
-            "price": 40
+            "bottle_price": 900,
+            "price": 60
         },
 
         {
             "name": "Мерло червоне сухе",
             "volume": 0.75,
-            "bottle_price": 600,
-            "price": 40
+            "bottle_price": 900,
+            "price": 60
         },
         {
             "name": "Каберне червоне сухе",
             "volume": 0.75,
-            "bottle_price": 600,
-            "price": 40
+            "bottle_price": 900,
+            "price": 60
         },
         {
             "name": "Рислінг біле напівсухе",
             "volume": 0.75,
-            "bottle_price": 750,
-            "price": 50
+            "bottle_price": 1125,
+            "price": 75
         },
         {
             "name": "Рислінг біле напівсолодке",
             "volume": 0.75,
-            "bottle_price": 825,
-            "price": 55
+            "bottle_price": 1125,
+            "price": 75
         }
     ]
 },
@@ -280,26 +274,26 @@
     {
         "name": "Вино Італійське біле напів-сол",
         "volume": 0.75,
-        "bottle_price": 675,
-        "price": 45
+        "bottle_price": 975,
+        "price": 65
     },
     {
         "name": "Вино Італійське біле напів-сух",
         "volume": 0.75,
-        "bottle_price": 675,
-        "price": 45
+        "bottle_price": 975,
+        "price": 65
     },
     {
         "name": "Вино Італійське черв",
         "volume": 0.75,
-        "bottle_price": 675,
-        "price": 45
+        "bottle_price": 975,
+        "price": 65
     },
     {
         "name": "Cantine Pellegrino Inzolia біле/сухе",
         "volume": 0.75,
-        "bottle_price": 750,
-        "price": 50
+        "bottle_price": 1050,
+        "price": 70
     }]
 },
 {
@@ -308,32 +302,32 @@
     {
         "name": "Алазанська Долина біле напів-сол",
         "volume": 0.75,
-        "bottle_price": 675,
-        "price": 45
+        "bottle_price": 975,
+        "price": 65
     },
     {
         "name": "Алазанська долина черв напів-сол",
         "volume": 0.75,
-        "bottle_price": 705,
-        "price": 47
+        "bottle_price": 1005,
+        "price": 67
     },
     {
         "name": "Кіндзмараулі черв напів-сол",
         "volume": 0.75,
-        "bottle_price": 960,
-        "price": 64
+        "bottle_price": 1260,
+        "price": 84
     },
     {
         "name": "Сапераві черв сухе",
         "volume": 0.75,
-        "bottle_price": 705,
-        "price": 47
+        "bottle_price": 1005,
+        "price": 67
     },
     {
         "name": "Цинандалі біле сухе",
         "volume": 0.75,
-        "bottle_price": 675,
-        "price": 45
+        "bottle_price": 975,
+        "price": 65
     }]
 },
 {
@@ -342,28 +336,37 @@
         {
             "name": "Пиво «Корона EXTRA»",
             "volume": 0.33,
-            "bottle_price": 105
+            "bottle_price": 119
         },
         {
             "name": "Бочкове на розлив",
             "volume": 0.5,
-            "bottle_price": 80
+            "bottle_price": 97
         },
         {
-            "name": "Оболонь світле",
+            "name": "Heineken",
+            "volume": 0.33,
+            "bottle_price": 119
+        },
+        {
+            "name": "Львівське",
             "volume": 0.5,
-            "bottle_price": 90
+            "bottle_price": 104
+        },
+        {
+            "name": "Tuborg",
+            "volume": 0.5,
+            "bottle_price": 104
         },
         {
             "name": "Hike",
             "volume": 0.5,
-            "bottle_price": 90
+            "bottle_price": 104
         },
-
         {
             "name": "Безалкогольне",
             "volume": 0.5,
-            "bottle_price": 570
+            "bottle_price": 90
         }
     ]
 },
@@ -374,63 +377,63 @@
         {
             "name": "Фреш апельсиновий",
             "volume": 200,
-            "bottle_price": 120
+            "bottle_price": 150
         },
         {
             "name": "Фреш яблучний",
             "volume": 200,
-            "bottle_price": 90
+            "bottle_price": 120
         },
         {
             "name": "Узвар",
             "volume": 200,
-            "bottle_price": 15
+            "bottle_price": 25
         },
         {
             "name": "Цитринівка",
             "volume": 200,
-            "bottle_price": 15
+            "bottle_price": 25
         },
         {
             "name": "Сік в асортименті",
             "volume": "1 л",
-            "bottle_price": 120
+            "bottle_price": 190
         },
         {
             "name": "Сік дитячий",
             "volume": 0.2,
-            "bottle_price": 35
+            "bottle_price": 45
         },
         {
             "name": "Моршинська газ, негазована",
             "volume": 0.5,
-            "bottle_price": 45
+            "bottle_price": 70
         },
         {
             "name": "Боржомі",
             "volume": 0.5,
-            "bottle_price": 100
+            "bottle_price": 140
         },
         {
             "name": "Кока-кола",
             "volume": "0,5",
-            "bottle_price": "45"
+            "bottle_price": 70
         },
 
         {
             "name": "Фанта",
             "volume": 0.5,
-            "bottle_price": 45
+            "bottle_price": 70
         },
         {
             "name": "Спрайт",
             "volume": 0.5,
-            "bottle_price": 45
+            "bottle_price": 70
         },
         {
             "name": "Швепс",
             "volume": 0.5,
-            "bottle_price": 55
+            "bottle_price": 80
         }
     ]
 },
@@ -439,43 +442,43 @@
     "dishes": [
     {
         "name": "Кава Американо",
-        "bottle_price": 55
+        "bottle_price": 75
     },
     {
         "name": "Кава Єспресо",
-        "bottle_price": 55
+        "bottle_price": 75
     },
     {
         "name": "Кава Лате",
-        "bottle_price": 65
+        "bottle_price": 95
     },
     {
         "name": "Кава Капучіно",
-        "bottle_price": 65
+        "bottle_price": 95
     },
     {
         "name": "Чай Карпатський",
-        "bottle_price": 70
+        "bottle_price": 90
     },
     {
         "name": "Чай в асортименті",
         "descr": "чорний, зелений, травяний, імбирний",
-        "bottle_price": 70
+        "bottle_price": 90
     },
     {
         "name": "Молоко",
         "volume": "50г",
-        "bottle_price": 10
+        "bottle_price": 20
     },
     {
         "name": "Лимон",
         "volume": "30г",
-        "bottle_price": 10
+        "bottle_price": 20
     },
     {
         "name": "Мед",
         "volume": "30г",
-        "bottle_price": 20
+        "bottle_price": 30
     }]
 },
 {
@@ -484,30 +487,30 @@
         {
             "name": "Мохіто",
             "descr": "бакарді, лайм, м’ята, сироп",
-            "bottle_price": 250
+            "bottle_price": 320
         },
         {
             "name": "Маргарита",
             "descr": "текіла, тріпл сек, сироп, лаймовий сік",
-            "bottle_price": 250
+            "bottle_price": 320
         },
         {
             "name": "Red Berry",
             "descr": "горілка, швепс, гранатовий сік",
-            "bottle_price": 250
+            "bottle_price": 320
         },
         {
             "name": "Віскі Кола",
             "descr": "віскі, кола, лайм",
-            "bottle_price": 250
+            "bottle_price": 320
         },
         {
             "name": "Мохіто безалкогольний",
-            "bottle_price": 120
+            "bottle_price": 150
         },
         {
             "name": "Молочний, Шоколадний, Банановий",
-            "bottle_price": 105
+            "bottle_price": 130
         }
     ]
 }]
