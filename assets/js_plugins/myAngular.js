@@ -178,7 +178,7 @@ app.controller('shrwdCtrl', function($scope, $http, $timeout) {
         var xhr = new XMLHttpRequest();
         xhr.open('POST', url);
         // xhr.withCredentials = true;
-        xhr.setRequestHeader('Content-Type','Access-Control-Allow-Origin: https://sherwood-resort.com', 'application/x-www-form-urlencoded');
+        xhr.setRequestHeader('Access-Control-Allow-Origin: https://sherwood-resort.com','Content-Type', 'application/x-www-form-urlencoded');
         xhr.onreadystatechange = function() {
             console.log(xhr.status, xhr.statusText)
             console.log(xhr.responseText);
