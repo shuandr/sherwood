@@ -169,8 +169,8 @@ app.controller('shrwdCtrl', function($scope, $http, $timeout) {
         return data;
     }
 
-    $scope.formSubmit = function(event) { // handles form submit withtout any jquery
-        event.preventDefault(); // we are submitting via xhr below
+    $scope.formSubmit = function() { // handles form submit withtout any jquery
+        // event.preventDefault(); // we are submitting via xhr below
         var data = getFormData(); // get the values submitted in the form
 
         // var url = event.target.action; //
@@ -178,7 +178,7 @@ app.controller('shrwdCtrl', function($scope, $http, $timeout) {
         var xhr = new XMLHttpRequest();
         xhr.open('POST', url);
         // xhr.withCredentials = true;
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.setRequestHeader('Content-Type','Access-Control-Allow-Origin: https://sherwood-resort.com', 'application/x-www-form-urlencoded');
         xhr.onreadystatechange = function() {
             console.log(xhr.status, xhr.statusText)
             console.log(xhr.responseText);
