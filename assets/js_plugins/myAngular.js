@@ -174,11 +174,11 @@ app.controller('shrwdCtrl', function($scope, $http, $timeout) {
         var data = getFormData(); // get the values submitted in the form
 
         // var url = event.target.action; //
-        var url = "https://script.google.com/macros/s/AKfycbxCReput38Lmh2tpLKCaM2c-YZUbjwkHDJypof6hO-lsuLRS14/exec"; //
+        var url = "https://script.google.com/macros/s/AKfycbwTdQmeQ_QcEiX69S2DkPSsepxwKslc5xEq-oiE7a_DKHz0S3EmHRNtEmWzhdF8Mdel/exec"; //
         var xhr = new XMLHttpRequest();
         xhr.open('POST', url);
         // xhr.withCredentials = true;
-        xhr.setRequestHeader('Access-Control-Allow-Origin: https://sherwood-resort.com','Content-Type', 'application/x-www-form-urlencoded');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.onreadystatechange = function() {
             console.log(xhr.status, xhr.statusText)
             console.log(xhr.responseText);
