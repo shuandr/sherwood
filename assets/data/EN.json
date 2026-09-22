@@ -105,7 +105,7 @@
         },
         {
             "h": "wood-burning bathroom",
-            "p": "The big bath — 1700 UAH, small bath — 1200 UAH for 2 hours (for 5 persons, +50 UAH for each subsequent person, a maximum of 8 people)",
+            "p": "The big bath — 1900 UAH, small bath — 1400 UAH for 2 hours (for 5 persons, +50 UAH for each subsequent person, a maximum of 8 people)",
             "img": "bania.webp"
         },
         {
@@ -122,16 +122,6 @@
             "h": "Rope park",
             "p": " ",
             "img": "territory.webp"
-        },
-        {
-            "h": "Horse riding",
-            "p": "Both experienced riders and newbies can try various short and long horse riding trips.\nRiding cost – 170 UAH",
-            "img": "horse_riding_2.webp"
-        },
-        {
-            "h": "Pony riding",
-            "p": "Kids may ride ponies with instructor – 100 UAH/lap.",
-            "img": "pony_2.webp"
         },
         {
             "h": "playground",
